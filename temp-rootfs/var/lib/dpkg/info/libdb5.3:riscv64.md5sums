@@ -1,0 +1,5 @@
+f696cd7e98fa28fd38cc05846f759fcb  usr/lib/riscv64-linux-gnu/libdb-5.3.so
+faa86ff6ae31a5f6f035de849f7fdd08  usr/share/doc/libdb5.3/build_signature_riscv64.txt
+a03422354cd11fe9bc7890af3f0fa2dc  usr/share/doc/libdb5.3/changelog.Debian.gz
+73e00aa8871093e6d4f0e03a47d384ea  usr/share/doc/libdb5.3/copyright
+6476eb780800b7b1b04948f3d4427083  usr/share/lintian/overrides/libdb5.3

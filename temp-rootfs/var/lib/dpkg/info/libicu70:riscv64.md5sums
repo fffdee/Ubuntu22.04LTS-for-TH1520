@@ -1,0 +1,9 @@
+328696da89dedb6480b0709e1b273f2d  usr/lib/riscv64-linux-gnu/libicudata.so.70.1
+7aeae5463a8d2dd827c46eb52f5d1385  usr/lib/riscv64-linux-gnu/libicui18n.so.70.1
+c429371ee51c126b05343e36310cabe9  usr/lib/riscv64-linux-gnu/libicuio.so.70.1
+c0f861eda837a6b2149a15a8b3c0bd8a  usr/lib/riscv64-linux-gnu/libicutest.so.70.1
+f1290161547169dcd8d1459ab44594ba  usr/lib/riscv64-linux-gnu/libicutu.so.70.1
+9ef98ed431eefc63516d1c999011d7a9  usr/lib/riscv64-linux-gnu/libicuuc.so.70.1
+4cb57b19a2d2bf6abf43a4a0b9f9c260  usr/share/doc/libicu70/changelog.Debian.gz
+684aba60fb28974ceb3555c7a95ac75a  usr/share/doc/libicu70/copyright
+44c5dcca24328bbe619eafcabf92c17d  usr/share/lintian/overrides/libicu70

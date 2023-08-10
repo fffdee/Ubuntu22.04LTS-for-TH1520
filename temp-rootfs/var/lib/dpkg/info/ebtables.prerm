@@ -1,0 +1,24 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" != "upgrade" ]; then
+    update-alternatives --remove ebtables /usr/sbin/ebtables-legacy
+fi
+
+if [ "$1" = "remove" ] ; then
+    if [ ! -L /sbin ] || [ "$(readlink /sbin)" != "usr/sbin" ]; then
+	LIST="ebtables ebtables-save ebtables-restore"
+	for i in $LIST ; do
+            if [ -L "/sbin/$i" ] ; then
+		rm /sbin/$i
+            fi
+	done
+    fi
+fi
+
+# Automatically added by dh_installdeb/13.6ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/init.d/ebtables 2.0.10.4\+snapshot20181205-2 -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/default/ebtables 2.0.10.4\+snapshot20181205-2 -- "$@"
+# End automatically added section
+

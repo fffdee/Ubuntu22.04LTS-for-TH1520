@@ -1,0 +1,4 @@
+358bda4c63b1b1792415c24b5d408fa0  usr/sbin/conntrack
+24d6a70d5e243e42b3cb81737961cf5d  usr/share/doc/conntrack/changelog.Debian.gz
+6e160e78b9c340d331a54a56308d8e4a  usr/share/doc/conntrack/copyright
+cc990457737416ec38c61fa4d8bb567e  usr/share/man/man8/conntrack.8.gz

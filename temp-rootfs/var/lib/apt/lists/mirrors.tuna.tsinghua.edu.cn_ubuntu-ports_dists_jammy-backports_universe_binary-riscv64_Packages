@@ -1,0 +1,1499 @@
+Package: borgmatic
+Architecture: all
+Version: 1.7.9-0ubuntu1~bpo22.04.1
+Priority: optional
+Section: universe/utils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Borg Collective <team+borg@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 438
+Depends: borgbackup, python3-colorama, python3-jsonschema, python3-pkg-resources, python3-requests, python3-ruamel.yaml, python3:any (>= 3.8~)
+Filename: pool/universe/b/borgmatic/borgmatic_1.7.9-0ubuntu1~bpo22.04.1_all.deb
+Size: 70206
+MD5sum: 0750f1fda9b98f714aa62c42acf5ad04
+SHA1: d7dcf5d7d32df2f697f93abef9d002f8efca93c3
+SHA256: 19bc84b811e18563075b8926cc016a4e1a51176ac50b83989bfff19c4ba51776
+SHA512: 47e2af0043d3782b9cec244f29b0f66c925e70d0aaa61ab9b03bd845161f5d4017f011062d45adfcd1d7d391dd6e96ae8a08dbe8c6a9481d78e42ab834a65b40
+Homepage: https://torsion.org/borgmatic
+Description: automatically create, prune and verify backups with borgbackup
+Description-md5: f0ca4acfb3d412c3e35bb1bdeee35e47
+
+Package: carla-data
+Architecture: all
+Version: 2.5.5-0ubuntu1~bpo22.04.1
+Priority: optional
+Section: universe/sound
+Source: carla
+Origin: Ubuntu
+Maintainer: Erich Eickmeyer <eeickmeyer@ubuntu.com>
+Original-Maintainer: falkTX <falktx@gmail.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 10860
+Filename: pool/universe/c/carla/carla-data_2.5.5-0ubuntu1~bpo22.04.1_all.deb
+Size: 2943616
+MD5sum: 230ee95253a58f8fc84962eeefad8cd0
+SHA1: c8a6b0bf9b3cd50a8663b7f40fc74540cfa1cb7a
+SHA256: 858b0e55ff5ee6c85f036f8eff712612408b3f945c826ff9962ea9179441184a
+SHA512: 3f8586b7aa874e59f00df900bf7b510fea830fbf051666a06039c05f9313ffc2bebfa9d156c78b233c0008fcbff5dc661a86235c766600bd4669e22ae95cd46d
+Homepage: https://kxstudio.linuxaudio.org/Applications:Carla
+Description: audio plugin host (common data)
+Description-md5: 117e427b316699fb64ea3cf1192bc465
+
+Package: cockpit
+Architecture: all
+Version: 297-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 69
+Depends: cockpit-bridge (>= 297-1~bpo22.04.1), cockpit-ws (>= 297-1~bpo22.04.1), cockpit-system (>= 297-1~bpo22.04.1)
+Recommends: cockpit-storaged (>= 297-1~bpo22.04.1), cockpit-networkmanager (>= 297-1~bpo22.04.1), cockpit-packagekit (>= 297-1~bpo22.04.1)
+Suggests: cockpit-doc (>= 297-1~bpo22.04.1), cockpit-pcp (>= 297-1~bpo22.04.1), cockpit-sosreport (>= 297-1~bpo22.04.1), xdg-utils
+Filename: pool/universe/c/cockpit/cockpit_297-1~bpo22.04.1_all.deb
+Size: 19838
+MD5sum: e789d2566f5343619b29b2c5b650a49c
+SHA1: 2b772d58d6748f04bb813de26380df78b9e14577
+SHA256: 57efb102301ab52ef84a3c998febe3a80c2a755882f739caddfa9f73cf2aaf55
+SHA512: 19c6f1e1d9a839b65b14a9f19c6102aa419b8b5736449c8a58b533d2a0981c32e4bf15d7cd0e14cb9bf02aa5326b2b5657234c73f3cb91a7b23e84e899b53ac4
+Homepage: https://cockpit-project.org/
+Description: Web Console for Linux servers
+Description-md5: 24b0aa0c07779dcba10e15ca9244d9e9
+
+Package: cockpit-bridge
+Architecture: riscv64
+Version: 297-1~bpo22.04.1
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 654
+Provides: cockpit-ssh
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.67.1), libjson-glib-1.0-0 (>= 1.5.2), libpolkit-agent-1-0 (>= 0.105), libpolkit-gobject-1-0 (>= 0.104), libssh-4 (>= 0.8.5), libsystemd0 (>= 235), glib-networking
+Recommends: openssh-client
+Breaks: cockpit-ws (<< 181.x)
+Replaces: cockpit-dashboard (<< 170.x), cockpit-ws (<< 181.x)
+Filename: pool/universe/c/cockpit/cockpit-bridge_297-1~bpo22.04.1_riscv64.deb
+Size: 312880
+MD5sum: fa50b7a623982fe00d56aac0444c8269
+SHA1: 66da2394eb8b319ad9cafa3c8fa8e4674eaec534
+SHA256: 331066188f62a51fbd6c5316bc460783911523a325e727d1a71d37e1d0f8296c
+SHA512: 67623da5aa80507a37bba8697294b19159c8bbe402748fb023b7bf8119caabc74cb228571a212f199d12561ad49626134fd09f0438bb36f0039263cef4728f12
+Homepage: https://cockpit-project.org/
+Description: Cockpit bridge server-side component
+Description-md5: 34419f40043aa83e9a0fb5968fe56ce7
+
+Package: cockpit-doc
+Architecture: all
+Version: 297-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/doc
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 529
+Filename: pool/universe/c/cockpit/cockpit-doc_297-1~bpo22.04.1_all.deb
+Size: 125650
+MD5sum: ac5d4d4d46e997033930bb2dd3d59c50
+SHA1: 498a2a105876b9ab0b812bd764806df43c22a1ed
+SHA256: 06cf2d6605d79a3db43682ac2a74c4203dd58d95ac6a05517f6163e09eb2482a
+SHA512: 6932616078954c94130ce542a1b060e7808bfdcc3b815550b7c18baf614dab0bce955694f5489ac9488cbd97e6f165ad6113a1f900cde3dd0fce7b7966ecb308
+Homepage: https://cockpit-project.org/
+Description: Cockpit deployment and developer guide
+Description-md5: 917dc8f7798407683627da6ebb139a47
+
+Package: cockpit-machines
+Architecture: all
+Version: 295-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1245
+Depends: cockpit-bridge (>= 215), libvirt-daemon-system, libvirt-clients | libvirt-bin, libvirt-dbus
+Recommends: virtinst (>= 3.0.0), python3-gi, gir1.2-libosinfo-1.0, qemu-block-extra
+Filename: pool/universe/c/cockpit-machines/cockpit-machines_295-1~bpo22.04.1_all.deb
+Size: 1243238
+MD5sum: 80ca02ba7fb313ac4571698850f8659d
+SHA1: 27481a649477dce1c02a2aa0a9008894cabd105f
+SHA256: 4dc16c77ecf0f017695de27341f6c9f76913438ee3432d672cd3df1540e43146
+SHA512: 4e0d8ed5fa27018efa85573e81bccb4c421a87bb1e09bb879024eecfaed34e0b7c656144f71803bca7906b442caa197765d88ec214e41c9e8326bbcac19ec4ed
+Homepage: https://github.com/cockpit-project/cockpit-machines
+Description: Cockpit user interface for virtual machines
+Description-md5: 0eb6768a5275b934fab3627c568646c9
+
+Package: cockpit-networkmanager
+Architecture: all
+Version: 297-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 987
+Depends: cockpit-bridge (>= 297-1~bpo22.04.1), network-manager (>= 1.6)
+Filename: pool/universe/c/cockpit/cockpit-networkmanager_297-1~bpo22.04.1_all.deb
+Size: 950996
+MD5sum: 2a258a5eaeea4178ecdf87b772f54d1d
+SHA1: ecb91e733b1ad807e02a0f7d4d0cc9f1905d14e5
+SHA256: 9cb47b0211930aa9db67061d552e9399148cf23a137d977d6c4b21fd04572056
+SHA512: 309d1399a28b3de3a7c4e7fc36ee64f34a66a0b1610a7fcffdd3d755b4d42a9041f3da76505bd320981760b4facaed2d022d6f90362912c5adc7591ddf79742f
+Homepage: https://cockpit-project.org/
+Description: Cockpit user interface for networking
+Description-md5: d453350593dcc4aba8e5cd9e282c9e7c
+
+Package: cockpit-packagekit
+Architecture: all
+Version: 297-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1085
+Depends: cockpit-bridge (>= 297-1~bpo22.04.1), packagekit, python3
+Filename: pool/universe/c/cockpit/cockpit-packagekit_297-1~bpo22.04.1_all.deb
+Size: 1046388
+MD5sum: e7c03784daa943aad919f3f95ecb57af
+SHA1: fbdedd9c003bc38c0cf0e21b3d37ec5bfc584232
+SHA256: 6b2f0042220752b240b71fbd1149a98c7caa08f0834f121a6602767a25b155a0
+SHA512: 25c9cee2f88ae694e790e8ec8d40f00e0a0aa57c36f594fa95a64aa373bec326ad6c0c200a67daacae283fda6eabdd80f13fd9048319869d6d4d29c448c40e87
+Homepage: https://cockpit-project.org/
+Description: Cockpit user interface for apps and package updates
+Description-md5: 78e1cc24dd1b7a3c1e724e0fb54d4968
+
+Package: cockpit-pcp
+Architecture: riscv64
+Version: 297-1~bpo22.04.1
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 179
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.67.1), libjson-glib-1.0-0 (>= 1.5.2), libpcp3, libsystemd0 (>= 235), cockpit-bridge (>= 297-1~bpo22.04.1), pcp
+Filename: pool/universe/c/cockpit/cockpit-pcp_297-1~bpo22.04.1_riscv64.deb
+Size: 66282
+MD5sum: 1867f6609a8054f014f036bfbcd5fc36
+SHA1: d2dc23d1dd5ffc27f2db429e793ebc0f25da87db
+SHA256: 60b9f214b20563716c7684bff28a86765f39de6991b28c850af18f97dcc814fc
+SHA512: fd7efc6b4c34fd9f0aef50661c928bada4f3fb36b85a70693a87bc123067f297cfcd0a3e23cc5211c3badd459e2048822d46d8eadf81c8df2fd62c8b52ff55ee
+Homepage: https://cockpit-project.org/
+Description: Cockpit PCP integration
+Description-md5: 2bcebebdc8b56e2cd8c2ba8755912a8f
+
+Package: cockpit-podman
+Architecture: all
+Version: 73-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Origin: Ubuntu
+Maintainer: Martin Pitt <martin.pitt@ubuntu.com>
+Original-Maintainer: Martin Pitt <mpitt@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 803
+Depends: cockpit-bridge, podman (>= 2.0.4)
+Filename: pool/universe/c/cockpit-podman/cockpit-podman_73-1~bpo22.04.1_all.deb
+Size: 795224
+MD5sum: 9a936f3dfca94167c340ac20c8fd3af5
+SHA1: e3951282a151fc821bc28dade269d469b53eda4a
+SHA256: 5d5d1b9b3d15433fd2d7dce708df620de429e1173dde4dfbf9c1ee1c25d8794b
+SHA512: 45dd378eb4a9312785cef2d6bc9eecada5587473161cfbdf36de74b91ff3a142099ba5bd8fe49cdcd2debf88411bdc53d8775cfff49817c88790764724eb9211
+Homepage: https://github.com/cockpit-project/cockpit-podman
+Description: Cockpit component for Podman containers
+Description-md5: bd8bea62609a52119a9f55b9e9e77daf
+
+Package: cockpit-sosreport
+Architecture: all
+Version: 297-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 738
+Depends: cockpit-bridge (>= 297-1~bpo22.04.1), sosreport
+Filename: pool/universe/c/cockpit/cockpit-sosreport_297-1~bpo22.04.1_all.deb
+Size: 696088
+MD5sum: b1a618882f5b0ea1ed1b7f150801c273
+SHA1: 4e661b8206aee0533c3b14fee4303ea33b16210a
+SHA256: a31c553fe4536d16b1643d9eb8a06f47a488b5bd8ebec631e83a1b0996ae390a
+SHA512: 272412ffff9e600b0018afd54b31630f4538f89d229ba2a8457667de10d6fdc80f257215c52336f9854fb92ee41b92037d2f164fe9d5c95081dd0e79c6189018
+Homepage: https://cockpit-project.org/
+Description: Cockpit user interface for diagnostic reports
+Description-md5: 4758fe190de68c7b853346fee5745606
+
+Package: cockpit-storaged
+Architecture: all
+Version: 297-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 989
+Depends: udisks2 (>= 2.9), udisks2 (>= 2.10) | libblockdev-mdraid2, cockpit-bridge (>= 297-1~bpo22.04.1), python3, python3-dbus
+Suggests: udisks2-lvm2, mdadm
+Filename: pool/universe/c/cockpit/cockpit-storaged_297-1~bpo22.04.1_all.deb
+Size: 956262
+MD5sum: 692da4dc485dd65a0d156f5f6b317b31
+SHA1: 21a9b8a962eeb5692c21995a84a74248f7bb9971
+SHA256: 0f124ff02861b9ae6b40c44a97568ddb22dae1090ffc797fd122e7da721c8dff
+SHA512: 8d571c6cae877b6918fdf6457ecdfabc378f317c587211d130444cb51f27b37472afd83d1d268204b4d976efa6ca913903ffd320f17e9e80ae5d02175f4653ca
+Homepage: https://cockpit-project.org/
+Description: Cockpit user interface for storage
+Description-md5: c2ebe73ae22d08ed61f7619b0540e9d3
+
+Package: cockpit-system
+Architecture: all
+Version: 297-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3847
+Provides: cockpit-shell, cockpit-systemd, cockpit-tuned, cockpit-users
+Depends: cockpit-bridge (>= 297-1~bpo22.04.1), libpwquality-tools, openssl
+Recommends: sudo | pkexec | policykit-1
+Conflicts: cockpit-shell
+Breaks: cockpit-dashboard
+Replaces: cockpit-dashboard, cockpit-shell
+Filename: pool/universe/c/cockpit/cockpit-system_297-1~bpo22.04.1_all.deb
+Size: 3782682
+MD5sum: c90f8127acba140f0a293702473e8640
+SHA1: 7d7d84a12c90ee9fa65fc339af6add5649a0d04f
+SHA256: dc633b283e4a1205287a4cfdf7e28331176f5abed015be4dbcfd7d114f24560e
+SHA512: 497e1029a75f1b200fadb72e7efb2382169686b54863e4f789ee0b2faec353c7081d0057b90b42e6e536bd74759da1b17c16b8409df729c0871168c6092f5f14
+Homepage: https://cockpit-project.org/
+Description: Cockpit admin interface for a system
+Description-md5: 305239ce7fcb5c6043156a1e54c69f73
+
+Package: cockpit-tests
+Architecture: riscv64
+Version: 297-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 702
+Provides: cockpit-test-assets
+Depends: libc6 (>= 2.27), libpam0g (>= 0.99.7.1), cockpit-system (>= 297-1~bpo22.04.1), openssh-client
+Conflicts: cockpit-test-assets
+Replaces: cockpit-test-assets
+Filename: pool/universe/c/cockpit/cockpit-tests_297-1~bpo22.04.1_riscv64.deb
+Size: 595004
+MD5sum: 36f95061c0ad84c4ddd5dd359e31dca7
+SHA1: fc52261d344c886a29a28ca186f796e51d5e3725
+SHA256: 799d5b7a26fff4867952ab13e250df7ce95a64819909e37db67c8d4347447efa
+SHA512: e0dd941fb78fdaf56dde81b954fc4b33fd8da484f4b93a4ba66359d4a4c0b422e60f940116bf00d2876dab73cbded580b804dce7644639882f063652d5670417
+Homepage: https://cockpit-project.org/
+Description: Tests for Cockpit
+Description-md5: 0b4ed46aa862cd96d493b081c605101e
+
+Package: cockpit-ws
+Architecture: riscv64
+Version: 297-1~bpo22.04.1
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1547
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libglib2.0-0 (>= 2.67.1), libgnutls30 (>= 3.7.0), libgssapi-krb5-2 (>= 1.17), libjson-glib-1.0-0 (>= 1.5.2), libpam0g (>= 1.3.1), libsystemd0 (>= 237), glib-networking, adduser, openssl, systemd (>= 235)
+Suggests: sssd-dbus, python3
+Filename: pool/universe/c/cockpit/cockpit-ws_297-1~bpo22.04.1_riscv64.deb
+Size: 850122
+MD5sum: cf14fb5d3d09947030dd2b2da959f5a1
+SHA1: 6af75b0ffeae80053bcd589ae8bae8c724d80a78
+SHA256: 3c5c696800c15ca3439555166214539d5c17a808443afca94f8f3feb34747c06
+SHA512: 49832305068ffc53298ccba7928675db2a7fe7a2602af401e6f7932d336dc1fbd87a6b751d87207ea058b3fa0c952ca9dd148de1604b2a99ecce1ca5f5350d6c
+Homepage: https://cockpit-project.org/
+Description: Cockpit Web Service
+Description-md5: f492a869e15f8c92004032f384bce124
+
+Package: debuginfod
+Architecture: riscv64
+Version: 0.188-1~bpo22.04.1
+Priority: optional
+Section: universe/devel
+Source: elfutils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Elfutils Maintainers <debian-gcc@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 233
+Depends: libdebuginfod1 (= 0.188-1~bpo22.04.1), libarchive13 (>= 3.0.4), libc6 (>= 2.34), libdw1 (>= 0.177), libelf1 (>= 0.142), libgcc-s1 (>= 3.0), libmicrohttpd12 (>= 0.9.50), libsqlite3-0 (>= 3.7.15), libstdc++6 (>= 12)
+Filename: pool/universe/e/elfutils/debuginfod_0.188-1~bpo22.04.1_riscv64.deb
+Size: 97424
+MD5sum: 9fd57f70a917060bb8d7f1e9b5eb7cd3
+SHA1: fc2c9e040ac114170985cee4decd1e309457f685
+SHA256: 5acb7e9550d41efd6ef0adf87952045712b61bfc76cfca0bcd1ca794c5a426ba
+SHA512: 97c21464ecd73e06a6ab976fefe49ee37e8b76cf0491c8785c293e20e7fed1588f761df65c6270cb36963678788899a28248630586c671a212f4647858d0d219
+Homepage: https://sourceware.org/elfutils/
+Description: debuginfo-related http file-server daemon
+Description-md5: 1ee7ebf3b25c14692d31b56419915fb2
+
+Package: gallery-dl
+Architecture: all
+Version: 1.25.7-1~bpo22.04.1
+Priority: optional
+Section: universe/web
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Unit 193 <unit193@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2043
+Depends: python3-requests, python3:any
+Suggests: ffmpeg, python3-brotli, yt-dlp | youtube-dl
+Filename: pool/universe/g/gallery-dl/gallery-dl_1.25.7-1~bpo22.04.1_all.deb
+Size: 366588
+MD5sum: e4eb570dce4bd68e66d7732eb551d873
+SHA1: 547c6431ea73603a6587e52d1a53262a2092d4e1
+SHA256: c69bd8e56262d82626146a20a5a9f236c55748c18bf24a3ffe5c0e78b38474a6
+SHA512: 4b70da77c675bb50b28d0a087711829392a513bfcd55d1e4d59170be122b7028b966c5705f28d47816376e936a8d731e3b7a200ddd8dfc88b85dfc859da68b75
+Homepage: https://github.com/mikf/gallery-dl
+Description: command-line program to download image galleries
+Description-md5: 0510bb32672915f74b92695fc9fb569d
+
+Package: libjuh-java
+Architecture: all
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/java
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 247
+Depends: liblibreoffice-java
+Filename: pool/universe/libr/libreoffice/libjuh-java_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 6224
+MD5sum: 9e8b85040af2086df52efeeec7def0af
+SHA1: 664960755dc6f3ff734310ff924544325f8cd1bb
+SHA256: 403877196f4cf6b2df86fd4412cf2acc50cfd64cfc70ba987081f101600fbdda
+SHA512: f25b2d56aa64b17333664f3f984c7410ffc546316920a0c866b294dfad73f7d2189d4317a9300968dcedeec3acfe1334452c4dad9e52a1599ab3c8872e4739b6
+Homepage: http://www.libreoffice.org
+Description: transitional package for LibreOffice UNO runtime environment
+Description-md5: 9e017c19c2cbf8cab7b83a1ee17e6890
+
+Package: libjurt-java
+Architecture: all
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/java
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 247
+Depends: liblibreoffice-java
+Filename: pool/universe/libr/libreoffice/libjurt-java_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 6226
+MD5sum: 82e8ab69294dedfbc97184a7afa4ca7d
+SHA1: 58f50cbb0065f56904b3fbafd42bda490e06498b
+SHA256: c537d8b75e9b185f9ff7138bf20fea4ade809423de66eb3de8e2c53a232ac909
+SHA512: c55a8433677e6279c2ac08cdd0d4e60c403c65f2a091f70f008ccae5a10f4917c0ffa89f06ed13383ca7b040b0c57c9fa748b922f8d30b2b0524c8f8dd86c56c
+Homepage: http://www.libreoffice.org
+Description: transitional package for LibreOffice UNO runtime environment
+Description-md5: 9e017c19c2cbf8cab7b83a1ee17e6890
+
+Package: libreoffice
+Architecture: riscv64
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/editors
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 254
+Depends: libreoffice-base, libreoffice-calc, libreoffice-core (= 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1), libreoffice-draw, libreoffice-impress, libreoffice-math, libreoffice-report-builder-bin, libreoffice-writer, python3-uno
+Recommends: fonts-crosextra-caladea, fonts-crosextra-carlito, fonts-dejavu, fonts-liberation, fonts-liberation2, fonts-linuxlibertine, fonts-noto-core, fonts-noto-extra, fonts-noto-mono, fonts-noto-ui-core, fonts-sil-gentium-basic, libreoffice-gnome | libreoffice-plasma, libreoffice-nlpsolver, libreoffice-report-builder, libreoffice-script-provider-bsh, libreoffice-script-provider-js, libreoffice-script-provider-python, libreoffice-sdbc-mysql, libreoffice-sdbc-postgresql, libreoffice-wiki-publisher, libreoffice-java-common (>= 4:7.5.5~)
+Suggests: cups-bsd, firefox | firefox-esr | thunderbird, ghostscript, gnupg, gpa, hunspell-dictionary, hyphen-hyphenation-patterns, imagemagick | graphicsmagick-imagemagick-compat, libgl1, libreoffice-grammarcheck, libreoffice-help (= 7.5), libreoffice-l10n (= 7.5), libreoffice-librelogo, libxrender1, myspell-dictionary, mythes-thesaurus, openclipart-libreoffice, pstoedit, unixodbc, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, gstreamer1.0-plugins-bad, gstreamer1.0-libav, default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre, libsane1, libofficebean-java
+Conflicts: libreoffice-dev (<= 1:5.0.3~rc1-2), libreoffice-dev-doc (<= 1:5.0.3~rc1-2)
+Filename: pool/universe/libr/libreoffice/libreoffice_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_riscv64.deb
+Size: 241020
+MD5sum: c76bc7e603156999e79bfb384d3ee86e
+SHA1: 46e1290b261860b7ea8ff1648246be26c2826633
+SHA256: d553452b7a04e98e303bb32d5f4c3a47a283e86ee20bd2bcd013272e47810c62
+SHA512: 57265c16520831f1c57e00018c4042cbee51a0e11de5634b176b90db3d813236a8eef703e192bc9fad6dc801001ac9a5ffe0ef4fe7c4e3e0b3bc253d4511106f
+Homepage: http://www.libreoffice.org
+Description: office productivity suite (metapackage)
+Description-md5: 9614e13c8592ae9a0c81c629137ef53e
+
+Package: libreoffice-avmedia-backend-gstreamer
+Architecture: riscv64
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/misc
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 251
+Depends: libreoffice-core (>> 1:6.3.0~rc1~)
+Filename: pool/universe/libr/libreoffice/libreoffice-avmedia-backend-gstreamer_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_riscv64.deb
+Size: 234884
+MD5sum: 0eb24541810161d86fd6611304803bd6
+SHA1: 9d811442cd25ae1a4a49370a988286d8abf4421e
+SHA256: 3aa067aaf5cc279ef145e57ecb543f33d070ff98a95e1cebfa94cf6acf65cf56
+SHA512: 533e5a26bae701031a318e47bf55e79443b268d74fba4169e0c162205425b6a3a5a47570451860f5be262f8e3e6af246de28d511e43be48e34c5529eacd4161b
+Homepage: http://www.libreoffice.org
+Description: transitional package for GStreamer backend for LibreOffice
+Description-md5: ec62ab16ee0666e01ee5915457261f88
+
+Package: libreoffice-base
+Architecture: riscv64
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/database
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 5937
+Pre-Depends: dpkg (>= 1.19.1)
+Depends: libreoffice-base-core (= 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1), libreoffice-base-drivers (= 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1), libreoffice-common (>= 1:7.0.0~alpha~), libreoffice-core (= 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1), ucf, libc6 (>= 2.32), libgcc-s1 (>= 3.4), libstdc++6 (>= 11), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 4.0.0~alpha), libuno-sal3 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3 (>= 1.4.0), uno-libs-private
+Recommends: libreoffice-writer, libreoffice-java-common (>= 4:7.5.5~), default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre
+Suggests: libreoffice-report-builder, python3-uno, unixodbc
+Breaks: libreoffice-common (<< 1:6.4.2~rc1~)
+Replaces: libreoffice-common (<< 1:6.4.2~rc1~)
+Filename: pool/universe/libr/libreoffice/libreoffice-base_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_riscv64.deb
+Size: 1823580
+MD5sum: e4135253506d13999493af9e323fed17
+SHA1: 125761f4202a2592b01885fedaa593674e30372e
+SHA256: b32d8bd1de5e5af073851e345d6c86c66a2b9c583e5fbd817689ac65d59e6fb5
+SHA512: 5eb5252f603d553b9de1e646217f26a5b0b8bc6d95941c0432247584e1909a8e1e12b5393fc25d6a8ede7782f65c7985a4c0a4ab5797bc79da9513c685ab81f6
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- database
+Description-md5: 5529fff5c628ca6b70284749063daea4
+
+Package: libreoffice-base-drivers
+Architecture: riscv64
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/database
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2362
+Depends: libreoffice-core-nogui | libreoffice-core, libc6 (>= 2.32), libgcc-s1 (>= 3.4), libstdc++6 (>= 11), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 5.3.0~alpha), libuno-sal3 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3 (>= 1.4.0), uno-libs-private
+Recommends: libreoffice-sdbc-hsqldb, libreoffice-sdbc-firebird
+Suggests: libjtds-java, libreoffice-sdbc-mysql | libmyodbc | libmariadb-java, libreoffice-sdbc-postgresql | odbc-postgresql | libpg-java, libsqliteodbc | tdsodbc | odbc-mdbtools
+Breaks: libreoffice-base (<< 1:4.3.0-3)
+Replaces: libreoffice-base (<< 1:4.3.0-3), libreoffice-core (<< 1:6.2.0~beta1~)
+Filename: pool/universe/libr/libreoffice/libreoffice-base-drivers_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_riscv64.deb
+Size: 791238
+MD5sum: 9993eb4337c2c75e69fc857decfd6c1b
+SHA1: 66e22989e155ea1f96f06077183e2c4317640a38
+SHA256: 3f0b203b19a135a0f934c818425efaca076a2118e8eac1f7198eeaa8434cf5fd
+SHA512: ce19842f5538f7b511b99a286667accd9676e9d8c7f7917e3f992d4fa83f32a729315c976fd2485e7684a858c9f217109eb449d8bf529678d45e30ff9464dcdc
+Homepage: http://www.libreoffice.org
+Description: Database connectivity drivers for LibreOffice
+Description-md5: 95a600bf1d7e583b757fe5b8ea210d10
+
+Package: libreoffice-dev-gui
+Architecture: riscv64
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/devel
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 288
+Depends: libreoffice-core (= 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1), libreoffice-dev (= 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1), libreoffice-dev-common (= 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 1.4.0), libuno-sal3 (>= 5.1.0~alpha), uno-libs-private
+Breaks: libreoffice-dev (<< 1:7.0.0~)
+Replaces: libreoffice-dev (<< 1:7.0.0~)
+Filename: pool/universe/libr/libreoffice/libreoffice-dev-gui_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_riscv64.deb
+Size: 251184
+MD5sum: 2d66152a6f6b1adf8a9bb51f91e47868
+SHA1: 9c9df62638d4252b3c14a3087d8e5652775a8e24
+SHA256: 2393855ddff2e3883e4a99c8cf87ba6f4a77f58106456e3cadfc4d706104101a
+SHA512: d74b133b8d3318805a3c6393613054daa317bd9eeb7c2b3ae02bc836d3d2fc4a92216aa5c73ae9841a55804bf2f288678a28e515488ca3be457bc4d46db42f99
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- "GUI" development stuff
+Description-md5: c7381cdfc5446c44dd4085615626c61e
+
+Package: libreoffice-evolution
+Architecture: riscv64
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/gnome
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 558
+Depends: libreoffice-base, libreoffice-common (>= 1:7.0.0~alpha~), libreoffice-core (= 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1), libebook-1.2-20, ucf, libc6 (>= 2.32), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.24.0), libstdc++6 (>= 11), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 1:7.4.0~alpha), libuno-sal3 (>= 5.1.0~alpha), libuno-salhelpergcc3-3 (>= 1.4.0), uno-libs-private
+Recommends: evolution
+Filename: pool/universe/libr/libreoffice/libreoffice-evolution_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_riscv64.deb
+Size: 321436
+MD5sum: 618380eb0a1257a7c6ff507c93a9b02c
+SHA1: 14cc9820b2b8ea1940f42d6163d69eafaaddc403
+SHA256: decd06df0f15a2e681547e848784b6b168e98a0be55fdfaf93e7136a3a895026
+SHA512: 6cebd13b9b3dab6641a3747cfbbddf5e6a6c8868a52ed531b0a208490241482fe757e241ce451922e75bc2ca99e51ab2e87234ac26200af1d47dc1dc94ae13f0
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- Evolution addressbook support
+Description-md5: 7d9a6b62e74d5a806f263ecd0d4bed18
+
+Package: libreoffice-gtk
+Architecture: all
+Version: 1:7.4.7-0ubuntu0.22.10.1~bpo22.04.1
+Priority: optional
+Section: universe/gnome
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 245
+Depends: libreoffice-gtk2
+Filename: pool/universe/libr/libreoffice/libreoffice-gtk_7.4.7-0ubuntu0.22.10.1~bpo22.04.1_all.deb
+Size: 6154
+MD5sum: 7b87410aac125e33e596017a50cd9d87
+SHA1: b575c8dce7be5da413b15ceeb41c8fe164feda03
+SHA256: 1a05030f08d754a242a0416d72750007158eaacd87c3d8d060a0c55ceebe9dbc
+SHA512: 5d1a194827433c38c16f6aee060de4f8d0fcb6e250402ddc37f9b981f7ba1cabc1c3ad19e7a2c0219d45e65ef0765f40632cae195e2a75a683d1632e02bdbd96
+Homepage: http://www.libreoffice.org
+Description: transitional package for LibreOffice gtk2 backend
+Description-md5: 0b76cbf84e5ccbf23ddec807f4dcefbb
+
+Package: libreoffice-gtk2
+Architecture: all
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/gnome
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 247
+Filename: pool/universe/libr/libreoffice/libreoffice-gtk2_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 7438
+MD5sum: bac750bc8f5883d320e2c10cf174ff56
+SHA1: 382b7cce7a693fdb599588507368291db6b91d30
+SHA256: 5e3347d4f4fb519edd08b9a561908e304d2ba3a66a827c71e9c706905b994f49
+SHA512: 5921abc5502e9ce05b571668bcd910471705571a91d9ec9157d773ec57ae929e2315fa61c68fcfb2ac6ce302b7f4f006785878677a8d9845422ea91d7312f76f
+Homepage: http://www.libreoffice.org
+Description: transitional package for LibreOffice gtk2 backend
+Description-md5: 16f95bd9c26683a4b4582a981ca1a3a2
+
+Package: libreoffice-kde
+Architecture: all
+Version: 1:7.4.7-0ubuntu0.22.10.1~bpo22.04.1
+Priority: optional
+Section: universe/kde
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 245
+Depends: libreoffice-kde5
+Filename: pool/universe/libr/libreoffice/libreoffice-kde_7.4.7-0ubuntu0.22.10.1~bpo22.04.1_all.deb
+Size: 6168
+MD5sum: 6a475967b84247fccf24650b45589c6a
+SHA1: b5bdfe730c7ece4c2162f2aa139896f81e7af93a
+SHA256: af7b5ac07623b69ae16116f7e8a02e33d5abe61c4e2b8ca2e8a55e7f638d6f83
+SHA512: 8e9a4778b687a567990d90e9e88dfc38eb75513ee4d9ba47c09a569fb0bc5ac5d2f5a61b64418156f1859fb94c0e1cb87ae22b1519da730abc375227726dc4b9
+Homepage: http://www.libreoffice.org
+Description: transitional package for LibreOffice KDE integration
+Description-md5: 6cefe70d36c253e7351b5cddd7f0664e
+
+Package: libreoffice-kde4
+Architecture: all
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/oldlibs
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 247
+Filename: pool/universe/libr/libreoffice/libreoffice-kde4_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 7446
+MD5sum: d43f23d2de6d6389f894d476d37361a9
+SHA1: 70cf45c4d05e967f90ae6069809fc0ec159b2823
+SHA256: 21ba21eb76d34b720847a0997968f7bb18e901716e6d5c2b5dca9d0a4f655ce8
+SHA512: d8e519ead73df93b27a255f539dae69ff263fb7bd5d767815672aea27e9f936dc10057f030e459ae7ae2dc0302d76dd416195ef2e7390eb01f59f8d93e28f0a4
+Homepage: http://www.libreoffice.org
+Description: transitional package for LibreOffice KDE integration
+Description-md5: e4e138701097a40ac3baad803dbce01d
+
+Package: libreoffice-kde5
+Architecture: riscv64
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/kde
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 251
+Depends: libreoffice-kf5, libreoffice-plasma
+Filename: pool/universe/libr/libreoffice/libreoffice-kde5_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_riscv64.deb
+Size: 234878
+MD5sum: 9a219947b1599d021974fbfca9d4bc79
+SHA1: 4cb3da53ee502f397977cdf07dd73fe1a0b1e0f4
+SHA256: 85f9683254d06578a45cb3a14267d1059125ad45e0e64b5cb2f97721b54749c0
+SHA512: 1a7d5ccba41ae381eececc5da82feefc06be56d4d75a609e2dd06aee441d8af847593cdb6e4f86154df95c6f4de5ee14573983b578bccaa696a22d8ac6866179
+Homepage: http://www.libreoffice.org
+Description: transitional package for LibreOffice "KDE 5" integration
+Description-md5: 9ba37e0af16899bba520effef300bdf2
+
+Package: libreoffice-kf5
+Architecture: riscv64
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/kde
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 313
+Depends: libreoffice-core (= 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1), libreoffice-qt5 (= 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1), kio, libc6 (>= 2.27), libgcc-s1 (>= 3.0), libkf5kiofilewidgets5 (>= 4.96.0), libqt5core5a (>= 5.0.2), libqt5widgets5 (>= 5.6.0~beta), libstdc++6 (>= 5), libuno-cppu3 (>= 1.4.0), libuno-cppuhelpergcc3-3 (>= 4.0.0~alpha), libuno-sal3 (>= 1.4.0), uno-libs-private
+Recommends: libreoffice-style-breeze
+Replaces: libreoffice-kde (<< 1:6.1.0~alpha1-1)
+Enhances: libreoffice
+Filename: pool/universe/libr/libreoffice/libreoffice-kf5_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_riscv64.deb
+Size: 251002
+MD5sum: d304f775ee59a25063b301bcc04abb32
+SHA1: 8c1919633f1754ad26c9f6deb6a638969cb6678f
+SHA256: 0093c736e830d66141042c8e5b685ed3f153dc75e6a11351c961c8f1d21f4573
+SHA512: 4b9e769af9eebe8a3346632be4616ed069e1d248e4a29953366ff08c485b2e7ef34802ad0ec269432aa2fd491e78d89f7d48e0d4c2ba2ec184103ad3fc5b2102
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- KDE Frameworks 5 integration
+Description-md5: 60a27e47a640a57cbd044cc3528831f5
+
+Package: libreoffice-librelogo
+Architecture: all
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/misc
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1043
+Depends: libreoffice-common (>= 1:7.0.0~alpha), libreoffice-core, libreoffice-script-provider-python, libreoffice-writer, ucf
+Filename: pool/universe/libr/libreoffice/libreoffice-librelogo_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 179494
+MD5sum: 14bd20b7873b7ea5dfd90adf5874f9e2
+SHA1: aa9b75b8018b1ef4ddd3f58e49882a2be14952ba
+SHA256: 2f8d526479fabcc51db89b2f18475c7245fdb5da36f6952c0a51e5f640cee893
+SHA512: 0099f55fbb56592a6b9a4150193d7a47b497e49df4a8d87ad4c11b735dd38309d97f9f43469becdb459660cf310d8a3b0d92760904c6e7608fedb44daec0ace6
+Homepage: http://librelogo.org
+Description: Logo-like programming language for LibreOffice
+Description-md5: cdaef056eb365a457e28772fa2fd9de6
+
+Package: libreoffice-mysql-connector
+Architecture: riscv64
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/misc
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 251
+Depends: libreoffice-sdbc-mysql
+Filename: pool/universe/libr/libreoffice/libreoffice-mysql-connector_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_riscv64.deb
+Size: 234898
+MD5sum: d8135c7b3587b26a9bc0b63491c7250c
+SHA1: 2c716669fe149fe0281613a42178e05fc9babfc9
+SHA256: 32d8d25bb95935d6bdf3b921f4df48e36728b3474a4eadf3ce26ee79e8ab002c
+SHA512: 701cb6837dbf21d6c8d0911e601461172df68c58b129dcef93d66bd85e6c045a56d86e1ac328591d0b44451e1e6e3e9a0a315bd7132e4fe9edfa2ab74942649d
+Homepage: http://www.libreoffice.org
+Description: transitional package for MariaDB/MySQL Connector extension for LibreOffice
+Description-md5: f67e8b039d42be412b79ebf1381a0f85
+
+Package: libreoffice-plasma
+Architecture: riscv64
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/editors
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 310
+Depends: libreoffice-core (= 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1), kio, libc6 (>= 2.27), libgcc-s1 (>= 3.0), libkf5configcore5 (>= 4.97.0), libkf5kiocore5 (>= 4.96.0), libqt5core5a (>= 5.0.2), libqt5gui5 (>= 5.2.0~alpha1) | libqt5gui5-gles (>= 5.2.0~alpha1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 1.4.0), libuno-sal3 (>= 5.1.0~alpha), uno-libs-private
+Recommends: libreoffice-kf5
+Replaces: libreoffice-kde5 (<< 1:6.4.0~)
+Filename: pool/universe/libr/libreoffice/libreoffice-plasma_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_riscv64.deb
+Size: 252944
+MD5sum: 967a9ded2b6e2ac05ba361bc138caac7
+SHA1: a73114da5395fbf218664bff55604b8d2e386cf5
+SHA256: 3f0bf144c1114c9d0540af78a03190aa3afbb8f8b107addddd263d94bd816880
+SHA512: 258bbfd0fda0b32b12753d1bab0966059ad2c8f03c3dce29c970debd8f42a1ec560227e41e4180862a0c7898814225c8dc8fb4fdcccbd2e393c603d58bc338de
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- some Plasma integration
+Description-md5: 962e5fa862a2425941adbcdb81054cc7
+
+Package: libreoffice-qt5
+Architecture: riscv64
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/editors
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1740
+Depends: libreoffice-core (= 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1), libc6 (>= 2.34), libcairo2 (>= 1.10.0), libepoxy0 (>= 1.0), libgcc-s1 (>= 4.3), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5widgets5 (>= 5.14.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 12), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 4.0.0~alpha), libuno-sal3 (>= 5.1.0~alpha), libuno-salhelpergcc3-3 (>= 1.4.0), libxcb-icccm4 (>= 0.4.1), libxcb1, uno-libs-private
+Enhances: libreoffice
+Filename: pool/universe/libr/libreoffice/libreoffice-qt5_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_riscv64.deb
+Size: 913028
+MD5sum: 5540a260cd4717cd82a0181bc5bf909c
+SHA1: 71ba68dee1a48291bf2b382997b4068662fe0bcf
+SHA256: 16ad37ffd6972f56d3352733fc2d395c1c04f4aee6c61a63c237f2be54f804c2
+SHA512: bb5f57a6c97aade5abd91d01e48bb2aee4f04b18c50c19c1c19598d054cc2d96ba057da93630d19d5361814048e5ae14c19bd6bd2984c7a265ee54bcf1f02b5a
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- Qt 5 integration
+Description-md5: 459572943562e2a51d6e9c1c30d84c71
+
+Package: libreoffice-report-builder
+Architecture: all
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/misc
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3000
+Provides: libreoffice-reportdesigner
+Depends: liblibreoffice-java, libreoffice-common (>= 1:7.0.0~alpha), libreoffice-core | libreoffice-core-nogui, libreoffice-report-builder-bin (>= 4:7.5.5), libreoffice-java-common, ucf
+Breaks: libreoffice-common (<< 1:6.4.2~rc1~)
+Replaces: libreoffice-common (<< 1:6.4.2~r~~)
+Enhances: libreoffice-base
+Filename: pool/universe/libr/libreoffice/libreoffice-report-builder_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 2112350
+MD5sum: ddce3cc082abf064d75c33e62ae0ca25
+SHA1: c0024e6f64db3eed89ede8a45e7428b98c501b2f
+SHA256: 96c44e0cb5f5b4beabe40e15a4d16dac5641d3df176fde8450c6a2f5c3217bea
+SHA512: a625683396b547215f349ab08c9dcb4306992ab8271eb4e376a20ddff38ca36698be561feb1d411468f4f70199f9b4585719bcac7e307c13b1639a15621ced19
+Homepage: http://www.libreoffice.org
+Description: LibreOffice component for building database reports
+Description-md5: 8239ceaa4ebaf25c2b15325d48eb907c
+
+Package: libreoffice-report-builder-bin
+Architecture: riscv64
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/misc
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3156
+Depends: libreoffice-base, libreoffice-core, libc6 (>= 2.32), libgcc-s1 (>= 3.4), libstdc++6 (>= 11), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 4.0.0~alpha), libuno-sal3 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3 (>= 1.4.0), uno-libs-private
+Filename: pool/universe/libr/libreoffice/libreoffice-report-builder-bin_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_riscv64.deb
+Size: 1139752
+MD5sum: 9d67268d8754614904130d99ae63847c
+SHA1: 247b0399b818fed69d0d0fa9967facca6312f5d9
+SHA256: 1d865db44fae5f086616833e0c3b4b2e9c75e0f49d80d03189833925e00f3fd0
+SHA512: 1e0dd91d0d2112252b4aa85555a31f757d276736820c711e0cd8b8109f712717ba662b4ee4ecb31c6cd395ec16373d797338a704b295c05e8fdd0108a4494c36
+Homepage: http://www.libreoffice.org
+Description: LibreOffice component for building database reports -- libraries
+Description-md5: 4de9416ad29a7951be39b95f83055e84
+
+Package: libreoffice-script-provider-bsh
+Architecture: all
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/java
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 356
+Depends: liblibreoffice-java, libreoffice-common, libreoffice-core-nogui | libreoffice-core, libreoffice-java-common, default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre, libbsh-java
+Filename: pool/universe/libr/libreoffice/libreoffice-script-provider-bsh_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 39734
+MD5sum: 953842523884a9f9455dc293839919c5
+SHA1: d51f1216da9414f79ad5a082c0e20f41fb1f6d9e
+SHA256: 8461bb35784879b1da1f5c56d9a2827f3667aedd69c39631f8f4afdff3bcd19f
+SHA512: 7115520f03b663cedf450fd2a3bc0f50a6c464603e2730f36de15311815f3ea2b8ee18756a3a7b8ff384c43564f5595ff2d7cce300e110b1856cc295e971c37c
+Homepage: http://www.libreoffice.org
+Description: BeanShell script support provider for LibreOffice scripting framework
+Description-md5: 720bef09745ce9eb4902772fb5c437d8
+
+Package: libreoffice-script-provider-js
+Architecture: all
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/web
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 941
+Depends: liblibreoffice-java, libreoffice-common, libreoffice-core-nogui | libreoffice-core, libreoffice-java-common, default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre
+Filename: pool/universe/libr/libreoffice/libreoffice-script-provider-js_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 643468
+MD5sum: 63caacbb201a62514e115621bc531e4c
+SHA1: ea214cfc6dc843b1bbbc85d503b9b168b6fda3ac
+SHA256: d282ae4009a12434bd9ddac6b6db0027d5970fba4d4673dfd55515df5ad1919a
+SHA512: a2dd1f490a9cdc6f298d42becd1fb51abd1f230c6305b64a802d25b452d57039cec50cc7c192af4ad195cedd78b7628a4f6df0736a8b092a9c80f826ff71cba8
+Homepage: http://www.libreoffice.org
+Description: JavaScript script support provider for LibreOffice scripting framework
+Description-md5: 41b18315e9be2aaa24a28415b907118e
+
+Package: libreoffice-script-provider-python
+Architecture: all
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/python
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 302
+Depends: libreoffice-common, libreoffice-core-nogui | libreoffice-core, python3-uno
+Filename: pool/universe/libr/libreoffice/libreoffice-script-provider-python_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 16572
+MD5sum: 25d48ac603d628e17459a011cf1249bd
+SHA1: a8d14d09531a46a69a269c550d3c178674ef220a
+SHA256: adf8dacf755f1f7e01d14aa04e7952b10f733f34667537be5cdbf89e51b70d06
+SHA512: f37c23789e0d45a219d012113641e2fb2e466f7474c9df87d7a0f0e71a340bf5806d9c84a9ae6f1b0764467bd4b5b18c9604fcc696807450fbbaadc17a1dd813
+Homepage: http://www.libreoffice.org
+Description: Python script support provider for LibreOffice scripting framework
+Description-md5: 019117f2dc708fc6c1179714b81e2076
+
+Package: libreoffice-sdbc-firebird
+Architecture: riscv64
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/database
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 745
+Depends: libreoffice-core-nogui | libreoffice-core, firebird3.0-server-core, libc6 (>= 2.27), libfbclient2 (>= 3.0.8~), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 5.3.0~alpha), libuno-sal3 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3 (>= 1.4.0), uno-libs-private
+Enhances: libreoffice-base-drivers
+Filename: pool/universe/libr/libreoffice/libreoffice-sdbc-firebird_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_riscv64.deb
+Size: 388286
+MD5sum: 665f99433ca14388d26f0bf5ac8b39ff
+SHA1: 2a6bf6ac326ed51a8b96fe3d75976319048cf72e
+SHA256: 06ea191b5d6a7b6f3bffa5002f18d14a940431ca35a23e30c88d21781a7a7c83
+SHA512: 1962bdf1340a82a802f3f47701f8ba2f5d58178aec00cd6baac604ef8174a4312f22baa3359f0188fa0945ce4a55e1fba4039f851318f26c345628de9b687965
+Homepage: http://www.libreoffice.org
+Description: Firebird SDBC driver for LibreOffice
+Description-md5: 4ad372e2554b0f42b39c7e1325d5e6d0
+
+Package: libreoffice-sdbc-hsqldb
+Architecture: riscv64
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/database
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 598
+Depends: libreoffice-core-nogui | libreoffice-core, libreoffice-java-common (>= 4:7.5.5~), default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre, libhsqldb1.8.0-java, libc6 (>= 2.32), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 5.3.0~alpha), libuno-sal3 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3 (>= 1.4.0), uno-libs-private
+Enhances: libreoffice-base-drivers
+Filename: pool/universe/libr/libreoffice/libreoffice-sdbc-hsqldb_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_riscv64.deb
+Size: 356000
+MD5sum: de2992c8435f134911df7de935dc3eaf
+SHA1: 6a44b47653c1197fac4e6ffebb9491504e52867c
+SHA256: b1845abf9e4dbffec028cd6b932da1bafcc5c890aa9d4a9858cc3ef7789af536
+SHA512: f54a4722e0791c157c31805b652dc474eacaf184040efda332c0d6b4ec86e13ddec67b121e4fd1c5fdebc416861ecfc8363091b234c7cc60553d21a7089a31df
+Homepage: http://www.libreoffice.org
+Description: HSQLDB SDBC driver for LibreOffice
+Description-md5: 54ed9715a25b1dae2ad2d3a9b6838a65
+
+Package: libreoffice-sdbc-mysql
+Architecture: riscv64
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/misc
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 724
+Depends: libreoffice-core-nogui | libreoffice-core, libc6 (>= 2.27), libgcc-s1 (>= 3.0), libmysqlclient21 (>= 8.0.11), libstdc++6 (>= 11), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 1:7.4.0~alpha), libuno-sal3 (>= 1:7.1.0~alpha1), libuno-salhelpergcc3-3 (>= 1.4.0), uno-libs-private
+Suggests: default-mysql-server | virtual-mysql-server
+Filename: pool/universe/libr/libreoffice/libreoffice-sdbc-mysql_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_riscv64.deb
+Size: 376056
+MD5sum: 774aebcdbd4b6f930837cba120222a70
+SHA1: 6a0a2c7ced0afbe7cb9bc7eca4b63fab1384760c
+SHA256: 87f95b6adc3630c2b57578266b9aeadf930e1293e86b68464a514b2147adeab2
+SHA512: 2380773ae7fb719ca46b5bdf9f9e596c892cb0bacaed5f5c557d059053c75dce9733af8d0a299ff4de15083fed09150f54c88586d6288b53e1595b51d1d2272b
+Homepage: http://www.libreoffice.org
+Description: MariaDB/MySQL SDBC driver for LibreOffice
+Description-md5: 1022a8fb85f50d65847256d96ae25e4f
+
+Package: libreoffice-sdbc-postgresql
+Architecture: riscv64
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/misc
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1071
+Depends: libreoffice-common (>= 1:7.0.0~alpha), libreoffice-core-nogui | libreoffice-core, ucf, libc6 (>= 2.27), libgcc-s1 (>= 3.4), libpq5 (>= 9.0~), libstdc++6 (>= 11), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 4.0.0~alpha), libuno-sal3 (>= 6.4.0~beta), libuno-salhelpergcc3-3 (>= 1.4.0), uno-libs-private
+Suggests: postgresql (>= 8.4)
+Enhances: libreoffice-base-drivers
+Filename: pool/universe/libr/libreoffice/libreoffice-sdbc-postgresql_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_riscv64.deb
+Size: 492340
+MD5sum: e3cdf5b4c01eb05dfb7f426d5cdc7380
+SHA1: 3f40351fc165ec2cb294c101c44f9fef1e0bbc62
+SHA256: 0a768a1477f7092630a74df3f31f9a9a94f0218a75492cb9b6b1553b571342f8
+SHA512: 4f9f8a8b8bfe1379b7a88742ee7287e227d8e87e31ce6721f48219f2b23fa2c7dd755cfdef4c8096a926397edc1cfce17ecea7ddf20dd3da80e4f4a86f89f2a9
+Homepage: http://wiki.documentfoundation.org/PostgreSQL-SDBC
+Description: PostgreSQL SDBC driver for LibreOffice
+Description-md5: 06f71158aa78dbe7201679601bd1279b
+
+Package: libreoffice-smoketest-data
+Architecture: all
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/misc
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 290
+Breaks: libreoffice-java-common (<< 1:6.4.0~rc1-6)
+Replaces: libreoffice-java-common (<< 1:6.4.0~rc1-6)
+Filename: pool/universe/libr/libreoffice/libreoffice-smoketest-data_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 39924
+MD5sum: a442f491f2d020992ccf8816c403d2fa
+SHA1: 7f28cc2b8b71aea58a78824fd42973b40160cb7c
+SHA256: 823bd40dd17e6a88e72d4bad314c52fb3f2609c2d786ed634746360289381c6f
+SHA512: 7cbf7f418d02ab25dd9ef431ccbf6627d991db8a0ecc36af7efb32dae8793ffd155a5435581ebe36f468e9e6329ce820a645dbd60550972d127d67168fa9df94
+Homepage: http://www.libreoffice.org
+Description: data files for LibreOffices "smoketest"
+Description-md5: 7540f40cccbf63cb8381dca8979a0828
+
+Package: libreoffice-style-galaxy
+Architecture: all
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/editors
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 247
+Depends: libreoffice-style-colibre
+Filename: pool/universe/libr/libreoffice/libreoffice-style-galaxy_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 6108
+MD5sum: 47a5ce5d7ae6fb5afc0f3f90e576ff86
+SHA1: 3ee4afe2218af5709f2def0258c23b40b0555405
+SHA256: 37b65819f3952eafef6acf89a7843d160b97d5f45700b4ac8a9427690e878cb1
+SHA512: 383f1ff375d9ff4bbf974a0a3f7c9e52aa11f20b862e46a15a4235c4d3a85d99b2bb25eae180eef8a828f9ecd079dae09eb02912ff5fde8609f5793ee3732900
+Homepage: http://www.libreoffice.org
+Description: transitional package for Galaxy symbol style
+Description-md5: cbafee8b95c2851c166a1f1a2f92ac6c
+
+Package: libreoffice-style-hicontrast
+Architecture: all
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/editors
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 247
+Depends: libreoffice-style-sifr
+Filename: pool/universe/libr/libreoffice/libreoffice-style-hicontrast_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 6114
+MD5sum: a8733418dc09405a2a6b98ff5de59d31
+SHA1: 60400e1e540c6a2c4fe80b6c02fef2e1ba63753b
+SHA256: 145d0dd6a3b77360adbfd3f694ba1ff0093c8fa3f59e5789af001abd5a37110b
+SHA512: 39ecf12181e39647c763a7724f0c6e03a77b8a5c963d3d7a738cd089605124fc57ebd43af606b02493cd00e98ae7aeb1cf3072f8893d74eb14a856dd66483f6f
+Homepage: http://www.libreoffice.org
+Description: transitional package for Hicontrast symbol style
+Description-md5: c975e10f61063cef8dfc736499943c67
+
+Package: libreoffice-style-human
+Architecture: all
+Version: 1:7.4.7-0ubuntu0.22.10.1~bpo22.04.1
+Priority: optional
+Section: universe/editors
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 245
+Filename: pool/universe/libr/libreoffice/libreoffice-style-human_7.4.7-0ubuntu0.22.10.1~bpo22.04.1_all.deb
+Size: 8278
+MD5sum: e0181588c5875a5e10e58b20ae004e71
+SHA1: cc993d21b159d72b72f3811c9d7811a9e1ea7633
+SHA256: ade79b6b4d1e372ae4fe21d35264d23de8abbd1e267e884d3adfcb6103ffd247
+SHA512: f002c54065bc2252b541a8ac95d59d6a9d3f0d662d90cf0b9167ad7561cac0d42f7d2223ea31b0b9f9dd18426edb2080c2b827d26a8358a08e85f5a8e8c0453c
+Homepage: http://www.libreoffice.org
+Description: transitional package for Human symbol style
+Description-md5: ed94ab0fc9991b77a2b9fda0a3089abb
+
+Package: libreoffice-style-karasa-jaga
+Architecture: all
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/editors
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 24041
+Provides: libreoffice-style
+Recommends: libreoffice-common
+Enhances: libreoffice-core
+Filename: pool/universe/libr/libreoffice/libreoffice-style-karasa-jaga_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 20697926
+MD5sum: 08f487d905e5875677a3a9fa701af7fc
+SHA1: dbefa9e865ff4bd18d32ed1cc657c4fbe9834840
+SHA256: b266100a5b11c243d7191b57a2fd8373b10f284e63ee1d44e95a6ff7fb84d21a
+SHA512: 06dc9cf70a4566b90e62f48ded5a27c5d1370e8bc80fe7a78cfc5f2499b2b9fb065eae4f280ad270e6a11c6c93aa335edd5f02ce9297375532ccc25406cd583a
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- Karasa Jaga symbol style
+Description-md5: 62dc98488a5247cbad91f4e0ec562bcf
+
+Package: libreoffice-style-oxygen
+Architecture: all
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/editors
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 247
+Depends: libreoffice-style-breeze
+Filename: pool/universe/libr/libreoffice/libreoffice-style-oxygen_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 6110
+MD5sum: cfb878609c8bfb10a5640426f02cc12e
+SHA1: efddb40241095997fd97bcc4b8aae764dead16de
+SHA256: c0d0df4f2c8634b6ff168f9ee63194400bec2f7725cfceae50a9cf2ed5eacd2b
+SHA512: 1cbec94d4dfb7dfb44a18dfb79675d16616d46c41d2faad81370c0efb5590076d076c3f958cff2d729c1b31df34236b1b772758922190d945130ad7906dfcf80
+Homepage: http://www.libreoffice.org
+Description: transitional package for Oxygen symbol style
+Description-md5: 0eea86d70908d194875d1d231cf95716
+
+Package: libreoffice-style-sifr
+Architecture: all
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/editors
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 9593
+Provides: libreoffice-style, libreoffice-style-hicontrast (= 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1)
+Depends: libreoffice-style-breeze
+Recommends: libreoffice-common
+Breaks: libreoffice-style-hicontrast (<< 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1)
+Replaces: libreoffice-style-hicontrast (<< 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1)
+Enhances: libreoffice-core
+Filename: pool/universe/libr/libreoffice/libreoffice-style-sifr_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 5038248
+MD5sum: ea352062bf30f3e8cf7bc9a0f315e9d8
+SHA1: d1a716f82373e85a769c59c7e23b0f44aa45e2ed
+SHA256: 3c384322822eeb4ead1a043ec44b5ccd3a7d1d08df9097232db1d9432d92eb1a
+SHA512: 2a5adc34cdf31fcaa43238b19aa8b3c074866d0f0529574f073a126b4a1345a29df68215490ae4075d180925e20abe980e8be2664003f33dddac7c1076f3bc1f
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- Sifr symbol style
+Description-md5: 0fd5516a8dab8f6841c284edea8786d7
+
+Package: libreoffice-style-sukapura
+Architecture: all
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/editors
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 14946
+Provides: libreoffice-style
+Recommends: libreoffice-common
+Enhances: libreoffice-core
+Filename: pool/universe/libr/libreoffice/libreoffice-style-sukapura_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 9814068
+MD5sum: 9777a98f43698a970a001b7466c96758
+SHA1: 2409b0c54a75b78c0ebd19930b02eab7b40d0879
+SHA256: f438f5febd21797eb71fa37e2991b210417be99697ae7c6530b16960cf4ff9c7
+SHA512: 84e1a0d98098855defa2e0298a1c440d2d29677cd2ce697310374f7f0868b37b7d65569d21cc27122892158a83217ddf61a2a3ca0de7e615bfc702b2434b38b4
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- Sukapura symbol style
+Description-md5: b9dbd94d0660dbc8a05ba918cb3fb897
+
+Package: libreoffice-subsequentcheckbase
+Architecture: all
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: extra
+Section: universe/libs
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3170
+Depends: liblibreoffice-java, junit4
+Filename: pool/universe/libr/libreoffice/libreoffice-subsequentcheckbase_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 2575120
+MD5sum: c3dffa9be1a5ba79d61c6066391f656a
+SHA1: 82db78d20d640a4a26580dcbe98d950c5f4eb70a
+SHA256: 1bf43e63336aff9c743992b018f49ff5f57e4da6ed1640517964eef4905ac8c9
+SHA512: 4be7a8c49cde063579b816ac5731f966f5a3574d011a27e82d8ae00db242a0fbb86ec3e111494de3aaf56cefdfbc10e4d0b2e17034a4091c660f32af33a8ff56
+Homepage: http://www.libreoffice.org
+Description: LibreOffice java test libraries
+Description-md5: cda482c5487d616e1ae7a228fce1d955
+
+Package: libreoffice-systray
+Architecture: all
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: extra
+Section: universe/misc
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 247
+Filename: pool/universe/libr/libreoffice/libreoffice-systray_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 7430
+MD5sum: 2b225859103379ba2cd2c2ca808fa090
+SHA1: 886a6256809c8ab27c2b90253a7d7da7b7c6e378
+SHA256: 3d89037aff6edacbaa7362f59cdcab94769fc222db1597bed1f252c167335cc3
+SHA512: 26d0dcab85aa65dc15e0481bb0d70177d966a0c4d3a17e6dcd87809f1acbdaabb7d73ee1d5af42d65efedc9fed0da5f1abd1c4ba105d7f51cd7ed39cecf1f46c
+Homepage: http://www.libreoffice.org
+Description: transitional package for removed LibreOffice "Quickstarter"
+Description-md5: 7af566a55c39207b389151276dad569a
+
+Package: libreoffice-wiki-publisher
+Architecture: all
+Version: 4:1.2.0+LibO7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/misc
+Source: libreoffice (4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1)
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4358
+Depends: liblibreoffice-java, libreoffice-core, libreoffice-java-common, default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre
+Suggests: mediawiki
+Enhances: libreoffice-writer
+Filename: pool/universe/libr/libreoffice/libreoffice-wiki-publisher_1.2.0+LibO7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 1466462
+MD5sum: 21381180096218713ef0d2557b2af143
+SHA1: ef88d380ba54926b64a77e79b2005cbfccea1686
+SHA256: 4e2520e5ae6c9bb5d2eea4c61e80e62f0b9d8849326340b5b5c1425f7c382faa
+SHA512: 296aa30d70b0a73f99bef0c60c0ff7b4558e9aedaef9075051b893489acc6457283be5c79a7fe5e08a2b000a23d210216ac3a83ca143f142d7b04151eda84804
+Homepage: http://www.libreoffice.org
+Description: LibreOffice extension for working with MediaWiki articles
+Description-md5: a66aaa282ae4941588a4d314d1ebbf79
+
+Package: libridl-java
+Architecture: all
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/java
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 247
+Depends: liblibreoffice-java
+Filename: pool/universe/libr/libreoffice/libridl-java_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 6228
+MD5sum: abd85281903743857c9a8787d677b434
+SHA1: 20cb9519cbf6cde365d9366f750341e4cf4a8d62
+SHA256: b9d425ae930626538a6f57de49b37e6b7082a94d59f7e5ce46cea5f00f11ace3
+SHA512: 6a3d81ce824017b4d54185c1429dc3ea9d6690ee56d731abede127ac85092e7fdbe688bc80c276f7204e1609c2981c5e641b491c1295e7d2fdb715eadb4e3599
+Homepage: http://www.libreoffice.org
+Description: transitional package for LibreOffice UNO runtime environment
+Description-md5: 9e017c19c2cbf8cab7b83a1ee17e6890
+
+Package: libunoil-java
+Architecture: all
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/java
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 247
+Depends: liblibreoffice-java
+Filename: pool/universe/libr/libreoffice/libunoil-java_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 6228
+MD5sum: 6edaf3b88bbe62e3aa412fde7f0d71e8
+SHA1: 696eaeb2eeffd80aab83906718179f57770ca52b
+SHA256: f09ce5a9aa701df59cd9926fa91a4108ddfcff7763077e29d5048f4437ba1daa
+SHA512: 5704476d68516427c3cb1f7d7ebc9b2095f4d3dad224da4c4428f717fb5bd03e522abefb01a85998ca406d254e455b5a284c7dc00aa4ad79ad56d8846a89500c
+Homepage: http://www.libreoffice.org
+Description: transitional package for LibreOffice UNO runtime environment
+Description-md5: 9e017c19c2cbf8cab7b83a1ee17e6890
+
+Package: limnoria
+Architecture: all
+Version: 2023.5.27-1~bpo22.04.1
+Priority: optional
+Section: universe/net
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Mattia Rizzolo <mattia@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 5224
+Depends: python3:any
+Recommends: iputils-ping, procps, python3-chardet, python3-cryptography, python3-dateutil, python3-feedparser, python3-gnupg, python3-socks, libpython3-stdlib (>= 3.9) | python3-tz
+Conflicts: supybot
+Filename: pool/universe/l/limnoria/limnoria_2023.5.27-1~bpo22.04.1_all.deb
+Size: 674412
+MD5sum: 888d08ecb4189d47365c513d43a76e77
+SHA1: e1873093fdf685493efa0cffff7c9f93d3aa501a
+SHA256: fd6875ea56bba343d305b116559fa39bb724dd8120b10e61134f67252d037b5a
+SHA512: a6b9edb16c8374b03b5f2e009c68d9de225efa1872e6bb7649e051b8266b68c99f11833b626792ef20fe0cc88576c9639fbd486a9ea1bc1b62e3324049ec7f45
+Homepage: https://github.com/ProgVal/Limnoria
+Description: robust and user-friendly Python IRC bot
+Description-md5: 33156b967de31535f327652d89476669
+
+Package: nala
+Architecture: all
+Version: 0.11.1~bpo22.04.1
+Priority: optional
+Section: universe/admin
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Volian Developers <volian-devel@volian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 420
+Depends: python3-anyio, python3-httpx, python3-pexpect, python3-rich, python3-tomli, python3-typer, python3-typing-extensions, python3:any, apt, python3-apt
+Recommends: python3-socksio
+Filename: pool/universe/n/nala/nala_0.11.1~bpo22.04.1_all.deb
+Size: 103546
+MD5sum: 5dcfe883a8cb4815d324f41c856c5f65
+SHA1: 43690ded9dd76bdc371c4065954ae28cf8e08ee8
+SHA256: d0124a63b3040de7dd8fb72806864aafe1015ea6b3215d54fa2de43a2d829c0a
+SHA512: a150d2dd5b77403ecebe381a046827c75c31e3fdb23ad9ed36c18ac7a1f9fdf7fc51c4751e8d8a7899c49cda2c2c4ddf5180d299dd5720cc19c88ec80e7b5217
+Homepage: https://gitlab.com/volian/nala
+Description: Commandline frontend for the APT package manager
+Description-md5: b5d4a9749a15cec7aa34f09342af5c0a
+
+Package: opencpn
+Architecture: riscv64
+Version: 5.6.2+dfsg-1~bpo22.04.1
+Priority: optional
+Section: universe/misc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Alec Leamas <leamas.alec@gmail.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 15544
+Depends: opencpn-data (>= 5.6.2+dfsg-1~bpo22.04.1), bzip2, libarchive13 (>= 3.0.4), libbz2-1.0, libc6 (>= 2.34), libcurl3-gnutls (>= 7.16.2), libelf1 (>= 0.131), libgcc-s1 (>= 4.3), libgl1, liblz4-1 (>= 0.0~r113), liblzma5 (>= 5.1.1alpha+20120614), libportaudio2 (>= 19+svn20101113), libsqlite3-0 (>= 3.7.3), libstdc++6 (>= 11), libtinyxml2.6.2v5 (>= 2.6.2), libudev1 (>= 183), libunarr1 (>= 1.0.0), libusb-1.0-0 (>= 2:1.0.16), libwxbase3.0-0v5 (>= 3.0.5.1+dfsg), libwxgtk-webview3.0-gtk3-0v5 (>= 3.0.5.1+dfsg), libwxgtk3.0-gtk3-0v5 (>= 3.0.5.1+dfsg), libwxsvg3 (>= 2:1.5.23+dfsg), libx11-6, zlib1g (>= 1:1.2.3.4)
+Recommends: wx3.0-i18n
+Suggests: binutils
+Breaks: opencpn-plugins (<< 4.8.8~)
+Replaces: opencpn-plugins (<< 4.8.8~)
+Filename: pool/universe/o/opencpn/opencpn_5.6.2+dfsg-1~bpo22.04.1_riscv64.deb
+Size: 6654638
+MD5sum: 7fac1cf7f03caf7d5408a203040b8405
+SHA1: 7ae92b1e01d71d53c9cd6d858e1b65f22fe35803
+SHA256: 247074a548a9033e58a07c1ac88a3f1cb4a1c12c6d1ee4d0f17ec35e9f043dfa
+SHA512: 037ad723b7c069eaf2f85bdc3d9297e4f182794011d5cd68134d48f39d67249758cbcebfcdf63d73ef84f53494dc4c226b9dedfd2705db0bff8ceecd1cff1041
+Homepage: https://opencpn.org
+Description: Open Source Chartplotter and Marine GPS Navigation Software
+Description-md5: a6806f4419c635843fbf689a11f1ce21
+
+Package: opencpn-data
+Architecture: all
+Version: 5.6.2+dfsg-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/misc
+Source: opencpn
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Alec Leamas <leamas.alec@gmail.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 28050
+Filename: pool/universe/o/opencpn/opencpn-data_5.6.2+dfsg-1~bpo22.04.1_all.deb
+Size: 5769974
+MD5sum: 86146e664a8dc707bbfc11c2f0092a81
+SHA1: 06cf092d437be228cffca9a428a29fb02d91784b
+SHA256: aaa4444d8e142746e0663e7eb22a0f2a4124e7f0090b8286f1d6d843e91a2dc0
+SHA512: 2f74f2c00248386d7282b71aff35ca97cd924ebd8691762706d38ec241e9bbc20c6cd23ae71cce9efbc1a707e35928b1e443039d5ed65bf5f3ed0f37711ad85e
+Homepage: https://opencpn.org
+Description: Open Source Chartplotter and Marine GPS Navigation Software (data)
+Description-md5: c5b38ade4afd27eaae1e628fb50aa8e7
+
+Package: python3-access2base
+Architecture: all
+Version: 4:7.5.5-0ubuntu0.23.04.1~bpo22.04.1
+Priority: optional
+Section: universe/python
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 316
+Depends: libreoffice-base, libreoffice-common (>= 1:6.4.0~beta1-2~), python3-uno, python3:any
+Replaces: libreoffice-base
+Filename: pool/universe/libr/libreoffice/python3-access2base_7.5.5-0ubuntu0.23.04.1~bpo22.04.1_all.deb
+Size: 19938
+MD5sum: e89cfd60c1dea18355f391c3b142a5c6
+SHA1: e91ef32eb134ed85ee3b9e139e29ebe81df26d30
+SHA256: 3b25dd16b1fb41e2eb17cb8cbb223d8b394d754827fed66706d952c0ebcee336
+SHA512: afa9c0376a2088c62c3b45a694c50e0db9c6ac4691d66a63094eed5378bc58fbb506e3770a6aa4b5b7c79335c6cec2d2f19ffc1fd1f57bf62b1dda78b517b581
+Homepage: http://www.access2base.com/access2base.html
+Description: interface between Python and the LibreOffice Access2Base library
+Description-md5: 62049593c5d96b74959809148594af38
+
+Package: python3-socksio
+Architecture: all
+Version: 1.0.0-2~bpo22.04.1
+Priority: optional
+Section: universe/python
+Source: socksio
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Sandro Tosi <morph@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 65
+Depends: python3:any
+Filename: pool/universe/s/socksio/python3-socksio_1.0.0-2~bpo22.04.1_all.deb
+Size: 15148
+MD5sum: 91058d702224101f8edc5af14d877237
+SHA1: f9d190aa48710e0864c1c0cc2cd8b37d73bc0016
+SHA256: bae7e48330dc7afde974c046948d4f8ca07e3d09c6065721e6661defa4cc4451
+SHA512: ac0f056079b9f872129ee4ca040f04d76e0e3c5d5480ca240ceea3eb0700d366a6326964f538b33a30a3f4e28f3dbc5ea51f88cc7ec1d80aceb4cffeaf6d7dc9
+Homepage: https://github.com/sethmlarson/socksio
+Description: Sans-I/O implementation of SOCKS4, SOCKS4A, and SOCKS5
+Description-md5: c6eb2cf62cb76e81ffb65bd5bfa5f524
+
+Package: studio-controls
+Architecture: all
+Version: 2.3.9-0ubuntu2~bpo22.04.1
+Priority: optional
+Section: universe/admin
+Origin: Ubuntu
+Maintainer: Erich Eickmeyer <eeickmeyer@ubuntu.com>
+Original-Maintainer: Len Ovens <len@ovenwerks.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 484
+Depends: a2jmidid, jackd2, python3-dbus, python3-gi, python3, python3-jack-client, zita-ajbridge, qasmixer, pavucontrol | pavucontrol-qt, python3-alsaaudio, init-system-helpers (>= 1.52)
+Recommends: qmidinet, zita-njbridge
+Suggests: carla, pulseaudio-module-jack
+Conflicts: cadence, studio-controls (<= 2.0.9-0ubuntu1), ubuntustudio-controls (<< 1.13)
+Replaces: studio-controls (<= 2.0.9-0ubuntu1), ubuntustudio-controls (<< 1.13)
+Filename: pool/universe/s/studio-controls/studio-controls_2.3.9-0ubuntu2~bpo22.04.1_all.deb
+Size: 92708
+MD5sum: 97b86b6a23b6d00366096961c1f1a8f0
+SHA1: 40d3d64733fcb1e37557f661e40be2370616c210
+SHA256: 0b4a1cf669df3cab0be38bb6897ac0f23f0efc7d326824467cfe8753f8362d1b
+SHA512: a6bbf072681c232461880f23105b8b3f150a4dc43e2d3bed6c417392ac8751933b14ca4399dda59bd327bf55bc605611da421f94d1da36e94c9957243fb49af6
+Homepage: http://www.ovenwerks.net/software/controls/index.html
+Description: Studio Controls - Jack Audio Configuration Tool
+Task: ubuntustudio-desktop
+Description-md5: de0084e5f09677837e67de8ea99b1377
+
+Package: yt-dlp
+Architecture: all
+Version: 2023.07.06-1~bpo22.04.1
+Priority: optional
+Section: universe/web
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Unit 193 <unit193@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 10260
+Depends: python3-brotli, python3-certifi, python3-mutagen, python3-pycryptodome, python3-websockets, python3:any, python3-pkg-resources
+Recommends: aria2 | wget | curl, ca-certificates, ffmpeg, python3-pyxattr, rtmpdump
+Suggests: libfribidi-bin | bidiv, mpv | mplayer, phantomjs
+Filename: pool/universe/y/yt-dlp/yt-dlp_2023.07.06-1~bpo22.04.1_all.deb
+Size: 1801974
+MD5sum: 4d3c5702b9f8b75ca24836700736feb8
+SHA1: 63207b2fb65eae453db9ae4dc7d34acd03fe941e
+SHA256: 740e642b05a0f90e4cc9720a27f6266f6bcb6a9428e9c83e1c3c12cb50a32d94
+SHA512: 7f91ef3eaa0dc2d98d60c2c14392d0814d34742876430df722f5358898daf5f0d8b6ed270513a76bde056dd518c8a9a124a6bd71250a78f1117f54211fc967f2
+Homepage: https://github.com/yt-dlp/yt-dlp
+Description: downloader of videos from YouTube and other sites
+Task: ubuntukylin-desktop
+Description-md5: f9e7c39f15eb8c3ad6e51b440b736694
+

@@ -1,0 +1,4 @@
+bf6b1bb2f5437e646e2b3e2d5a5c03cb  lib/riscv64-linux-gnu/libncurses.so.6.3
+3b270d4c2d26e9b44fd45ca918fc03c8  usr/lib/riscv64-linux-gnu/libform.so.6.3
+399369c37bce57d0ab5f769a5b7b207d  usr/lib/riscv64-linux-gnu/libmenu.so.6.3
+c1dcfcbd4c7105b929933b0238e17d8d  usr/lib/riscv64-linux-gnu/libpanel.so.6.3

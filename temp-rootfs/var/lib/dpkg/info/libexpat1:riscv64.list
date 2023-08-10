@@ -1,0 +1,16 @@
+/.
+/lib
+/lib/riscv64-linux-gnu
+/lib/riscv64-linux-gnu/libexpat.so.1.8.7
+/usr
+/usr/lib
+/usr/lib/riscv64-linux-gnu
+/usr/lib/riscv64-linux-gnu/libexpatw.so.1.8.7
+/usr/share
+/usr/share/doc
+/usr/share/doc/libexpat1
+/usr/share/doc/libexpat1/AUTHORS
+/usr/share/doc/libexpat1/changelog.Debian.gz
+/usr/share/doc/libexpat1/copyright
+/lib/riscv64-linux-gnu/libexpat.so.1
+/usr/lib/riscv64-linux-gnu/libexpatw.so.1

@@ -1,0 +1,183 @@
+Package: broadcom-sta-common
+Architecture: all
+Version: 6.30.223.271-23~22.04.1
+Priority: optional
+Section: multiverse/admin
+Source: broadcom-sta
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Eduard Bloch <blade@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 33
+Recommends: broadcom-sta-source, module-assistant
+Filename: pool/multiverse/b/broadcom-sta/broadcom-sta-common_6.30.223.271-23~22.04.1_all.deb
+Size: 8868
+MD5sum: e35933344d7cd70efe399e5bc4b51b3f
+SHA1: 18c56a6f8063c53ec959634e1b1fb9a16d3ccca7
+SHA256: d42a1f8a80b34c4964ceb5aacc395f4c5372ea0b6b88ceefea0eb8c53cd46974
+SHA512: e48e689c3aec8214990ffe543d885a85af0be186d823e1905263be8f4499a0d54d17768ec39c944190c22516cf31e11a5e047c10b5848116efdcbe824e4b4bd8
+Homepage: http://www.broadcom.com/support/802.11/linux_sta.php
+Description: Common files for the Broadcom STA Wireless driver
+Description-md5: a6bd57d95d48308610bc995bd8922939
+
+Package: broadcom-sta-dkms
+Architecture: all
+Version: 6.30.223.271-23~22.04.1
+Priority: optional
+Section: multiverse/admin
+Source: broadcom-sta
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Eduard Bloch <blade@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 14146
+Provides: broadcom-sta-modules
+Depends: dkms (>= 2.1.0.0)
+Recommends: wireless-tools
+Conflicts: broadcom-sta-modules
+Filename: pool/multiverse/b/broadcom-sta/broadcom-sta-dkms_6.30.223.271-23~22.04.1_all.deb
+Size: 2512930
+MD5sum: a7a5f5c466d127a4e39d98963f7691fe
+SHA1: b3ccac5c70ac87a09111788cb43ad69a284f434c
+SHA256: d88b093cbf312a013ec7cebf27ccb111177eb1e6aeffd59bf8bcb5685d9c2931
+SHA512: dfa8ad2caa6fc7b07625188d9c59bc0e59ce62638d73319e9ffc893d9a07c5737b609b188b780dcd54f14e25dc647b54a4968317482846c32d6369657e9f8064
+Homepage: http://www.broadcom.com/support/802.11/linux_sta.php
+Description: dkms source for the Broadcom STA Wireless driver
+Description-md5: 4c9c20d84937e0293fe598f44d785bce
+
+Package: broadcom-sta-source
+Architecture: all
+Version: 6.30.223.271-23~22.04.1
+Priority: optional
+Section: multiverse/admin
+Source: broadcom-sta
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Eduard Bloch <blade@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2195
+Depends: debhelper-compat (= 12), make, xz-utils
+Recommends: module-assistant
+Filename: pool/multiverse/b/broadcom-sta/broadcom-sta-source_6.30.223.271-23~22.04.1_all.deb
+Size: 2223028
+MD5sum: dc90a8d4795635c16af1e9f0ce9dfc36
+SHA1: 78a21b9b68ea139ba733c9b29090e7c870d6596b
+SHA256: 8fe353027aee2be65110b4614fae57ec8a5d9eb40a7a2f6c7232779da3bca3cd
+SHA512: 02fd0188ca586478d27bb2cc7ab9388e69b93813706911af0089ba2cbd31c51d87bee572736f0246fcee94aeed68ebfe0f6efd115957f432faba4b05e36ce97d
+Homepage: http://www.broadcom.com/support/802.11/linux_sta.php
+Description: Source for the Broadcom STA Wireless driver
+Description-md5: 5bb170970da4a03f1c53b6f0202148ef
+
+Package: othman
+Architecture: all
+Version: 0.6.0-2ubuntu0.22.04.1
+Priority: extra
+Section: multiverse/misc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Islamic Maintainers <debian-islamic-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 120
+Depends: python3-othman (= 0.6.0-2ubuntu0.22.04.1), python3:any, python3-gi, gir1.2-gtk-3.0
+Recommends: islamic-menus
+Filename: pool/multiverse/o/othman/othman_0.6.0-2ubuntu0.22.04.1_all.deb
+Size: 60414
+MD5sum: deba7cd96fd7670c9bd896c6409d2712
+SHA1: 2c96702cce9f0b40f04218fedad9d0e5428bcd8b
+SHA256: 7fb56a61378c4965603be211a790c849d3deaba783ad3222358335260da48f44
+SHA512: 25c3225ac7d343600ea6466ada151f163aad963d981700a336594d93cfc42bced4be9b6ad0ce85639cd290800b0f659bda210fad06411f42eba4b4ea99a41398
+Homepage: http://othman.ojuba.org
+Description: electronic Quran browser
+Description-md5: b8238305290697b4d61d0fe7d875e1be
+
+Package: python3-othman
+Architecture: all
+Version: 0.6.0-2ubuntu0.22.04.1
+Priority: optional
+Section: multiverse/python
+Source: othman
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Islamic Maintainers <debian-islamic-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3765
+Depends: python3:any, fonts-hosny-amiri
+Breaks: python-othman
+Replaces: python-othman
+Filename: pool/multiverse/o/othman/python3-othman_0.6.0-2ubuntu0.22.04.1_all.deb
+Size: 813854
+MD5sum: e1fd49999d0afda74f2349167dcb5e60
+SHA1: f1996596f7f6b730a529b1f982dc9199bfd8840b
+SHA256: 70dfe086e4f80d83b997fe7e8cd175a7fec9767ea63408e3adfa55783bda7fb1
+SHA512: 9d718424062a279d86f987c54df825ebee5e823c8a0e5960f0d4df5de491164361e71b826154dad69d120e6df2993e4057266b2c3c06db2d8d7c6a93ebeb4a1c
+Homepage: http://othman.ojuba.org
+Description: library providing access to Quranic text with a fast search index
+Description-md5: 1dbcf92cf3e1415d46e858c72c860c65
+
+Package: r8125-dkms
+Architecture: all
+Version: 9.007.01-3ubuntu0.2
+Priority: optional
+Section: multiverse/kernel
+Source: r8125
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Hideki Yamane <henrich@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 757
+Depends: dkms (>= 2.1.0.0)
+Filename: pool/multiverse/r/r8125/r8125-dkms_9.007.01-3ubuntu0.2_all.deb
+Size: 92970
+MD5sum: 107a0de863cbc0471a9394374bfe5a0e
+SHA1: b55ff3b9c94a4ac642b77067fa7f42cc94589619
+SHA256: 64c9f98d901abf3cb3ddf8483fdaf2d250ca59e3c537eb119daa793fca37e42c
+SHA512: fa95860847143708a7dbde988cd459e8aaa2e65a00ee95df24117a29e85b509a807c1f37a3aca4c177346fb82f9051fd97e9233f14ffb8baa49ee995ae8d85a7
+Homepage: https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-pci-express-software
+Description: dkms source for the r8125 network driver
+Description-md5: 21605b7f80ee7a56a99a0ef7f36c7598
+Phased-Update-Percentage: 30
+
+Package: virtualbox-ext-pack
+Architecture: all
+Version: 6.1.38-1~ubuntu1.22.04.1
+Priority: extra
+Section: multiverse/misc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 139
+Pre-Depends: debconf
+Depends: virtualbox (>= 6.1.38-dfsg-0~) | virtualbox-6.1, virtualbox (<< 6.1.38-dfsg-z) | virtualbox-6.1, wget, debconf (>= 0.5) | debconf-2.0
+Filename: pool/multiverse/v/virtualbox-ext-pack/virtualbox-ext-pack_6.1.38-1~ubuntu1.22.04.1_all.deb
+Size: 10768
+MD5sum: 053cf345fd2d48ad0b428d9b3e20b718
+SHA1: e8c60986db3b5486c16109baea7e9663dc52f41e
+SHA256: 4836f11c96e5cccd09a655cb98695b3e2d720ef8bdd5d7e9d5ea44fe37ad2bf7
+SHA512: 11e346cd30d85f3aca037506fc829ad19ff16d3f5407eb0d8940e2996ee0d4566bf5c3340bc4e9d66e4835a6eda3c8a407bfde695b6715996c15786b8eacb42d
+Homepage: https://www.virtualbox.org
+Description: extra capabilities for VirtualBox, downloader.
+Description-md5: d34299a0a1c7bf804958800947ea531c
+
+Package: virtualbox-guest-additions-iso
+Architecture: all
+Version: 6.1.38-1~ubuntu1.22.04.1
+Priority: extra
+Section: multiverse/misc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 62413
+Recommends: virtualbox (>= 6.1.38)
+Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0, virtualbox-5.1, virtualbox-5.2, virtualbox-6.0
+Filename: pool/multiverse/v/virtualbox-guest-additions-iso/virtualbox-guest-additions-iso_6.1.38-1~ubuntu1.22.04.1_all.deb
+Size: 47941476
+MD5sum: ffeee1dd2ec1bbb9618f2eb6a51d8cdd
+SHA1: ae7c80d452838731cada352eb88f16fa27718adc
+SHA256: 89d0e0757702b839fd2a9fce3d96283a34d58a467fb8a0d33829e266b325280a
+SHA512: f6cc0856ecd593c6a5e2243658da92c51468a8fe02928c84c1866f219ba8a9c3d92964d8c67e4874b93d3f29a22a5b89ee4b8b862e68a7f306b051003c444ea2
+Homepage: https://www.virtualbox.org
+Description: guest additions iso image for VirtualBox
+Description-md5: 11a9eaac064138ec238f7c2ee4c018df
+

@@ -1,0 +1,17 @@
+0c6d6a60fa0d571ad5f455ab7ab0310f  usr/lib/ebtables/libebtc.la
+91f2d394cd3bf61d8c32a6a732bb78ea  usr/lib/ebtables/libebtc.so.0.0.0
+83ea768fb44cde1945b923db85ea4f92  usr/sbin/ebtables-legacy
+956f3a2366ba10fba8b1e4468dd59de8  usr/sbin/ebtables-legacy-restore
+d0735d353fedca5833504c0fa536c1b8  usr/sbin/ebtables-legacy-save
+3b65411901b4a40ccdb0fb5bb54db135  usr/sbin/ebtablesd
+519bdd35d52b0c286d1195fa4cc4017f  usr/sbin/ebtablesu
+5a49ea0101e930689b638eaea4e3ea02  usr/share/doc/ebtables/NEWS.Debian.gz
+697150d044b5feda9cd3d822dd485c2a  usr/share/doc/ebtables/README.Debian
+ea051ccc08ae70a6fb8e793e72c5a8f2  usr/share/doc/ebtables/THANKS
+6389c46ea74b049977c072fc19b9a6f1  usr/share/doc/ebtables/changelog.Debian.gz
+60544048b575875ab9cce23aa769193e  usr/share/doc/ebtables/copyright
+6824c075073da776e95074389a6cb75f  usr/share/doc/ebtables/examples/README
+cd1448421fb5e6dd9b9b875018061194  usr/share/doc/ebtables/examples/ebtables.init
+5f01ac5f361e465e472144fcf801bd36  usr/share/man/man8/ebtables-legacy-restore.8.gz
+f1675a4ea2e12a4bb30bb7c4ea77b1aa  usr/share/man/man8/ebtables-legacy-save.8.gz
+0ce04957618682e97d95ec7783794014  usr/share/man/man8/ebtables-legacy.8.gz

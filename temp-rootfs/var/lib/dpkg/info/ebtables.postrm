@@ -1,0 +1,14 @@
+#!/bin/sh
+set -e
+
+# Automatically added by dh_installdeb/13.6ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/init.d/ebtables 2.0.10.4\+snapshot20181205-2 -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/default/ebtables 2.0.10.4\+snapshot20181205-2 -- "$@"
+# End automatically added section
+
+
+if [ "$1" = "purge" ]; then
+  rm -f /etc/ebtables.filter* /etc/ebtables.nat* /etc/ebtables.broute*
+fi
+
+exit 0

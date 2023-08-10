@@ -1,0 +1,9 @@
+/.
+/usr
+/usr/lib
+/usr/lib/riscv64-linux-gnu
+/usr/lib/riscv64-linux-gnu/libatomic.so.1.2.0
+/usr/share
+/usr/share/doc
+/usr/lib/riscv64-linux-gnu/libatomic.so.1
+/usr/share/doc/libatomic1

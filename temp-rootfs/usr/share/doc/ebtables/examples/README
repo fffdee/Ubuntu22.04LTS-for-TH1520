@@ -1,0 +1,11 @@
+The file /usr/share/doc/ebtables/examples/sysvinit/ebtables.init is a typical
+sysvinit script for you to use as /etc/init.d/ebtables.
+
+This script in the example is the one previously provided by the
+ebtables package, but now no sysvinit script is installed by default.
+
+Read the script carefully before using it, as is just an example.
+You will likely require to manually edit and install the script in order to
+properly use it.
+
+ -- Alberto Molina Coballes <alb.molina@gmail.com> Sun, 27 Jan 2019 19:11:14 +0100

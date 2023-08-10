@@ -1,0 +1,58 @@
+
+Start-Date: 2023-08-10  02:00:41
+Commandline: /usr/bin/apt-get install --no-install-recommends -y util-linux haveged openssh-server systemd kmod initramfs-tools conntrack ebtables ethtool iproute2 iptables mount socat ifupdown iputils-ping vim dhcpcd5 neofetch sudo chrony
+Install: libnetfilter-conntrack3:riscv64 (1.0.9-1, automatic), libwrap0:riscv64 (7.6.q-31build2, automatic), initramfs-tools-core:riscv64 (0.140ubuntu13.2, automatic), zstd:riscv64 (1.4.8+dfsg-3build1, automatic), libnftnl11:riscv64 (1.2.1-1build1, automatic), openssh-client:riscv64 (1:8.9p1-3ubuntu0.3, automatic), iptables:riscv64 (1.8.7-1ubuntu5.1), chrony:riscv64 (4.2-2ubuntu2), vim:riscv64 (2:8.2.3995-1ubuntu2.10), initramfs-tools-bin:riscv64 (0.140ubuntu13.2, automatic), libfido2-1:riscv64 (1.10.0-1, automatic), libgpm2:riscv64 (1.20.7-10build1, automatic), libhavege2:riscv64 (1.9.14-1ubuntu1, automatic), openssh-server:riscv64 (1:8.9p1-3ubuntu0.3), libsodium23:riscv64 (1.0.18-1build2, automatic), conntrack:riscv64 (1:1.4.6-2build2), klibc-utils:riscv64 (2.0.10-4, automatic), ifupdown:riscv64 (0.8.36+nmu1ubuntu3), libpython3.10:riscv64 (3.10.12-1~22.04.2, automatic), linux-base:riscv64 (4.5ubuntu9, automatic), libklibc:riscv64 (2.0.10-4, automatic), busybox-initramfs:riscv64 (1:1.30.1-7ubuntu3, automatic), libnfnetlink0:riscv64 (1.0.1-3build3, automatic), haveged:riscv64 (1.9.14-1ubuntu1), libip6tc2:riscv64 (1.8.7-1ubuntu5.1, automatic), vim-runtime:riscv64 (2:8.2.3995-1ubuntu2.10, automatic), openssh-sftp-server:riscv64 (1:8.9p1-3ubuntu0.3, automatic), dhcpcd5:riscv64 (7.1.0-2build1), initramfs-tools:riscv64 (0.140ubuntu13.2), ebtables:riscv64 (2.0.11-4build2), cpio:riscv64 (2.13+dfsg-7, automatic), socat:riscv64 (1.7.4.1-3ubuntu4), libcbor0.8:riscv64 (0.8.0-2ubuntu1, automatic), ethtool:riscv64 (1:5.16-1), neofetch:riscv64 (7.1.0-3), libedit2:riscv64 (3.1-20210910-1build1, automatic), libatomic1:riscv64 (12.3.0-1ubuntu1~22.04, automatic)
+Upgrade: libxtables12:riscv64 (1.8.7-1ubuntu5, 1.8.7-1ubuntu5.1), python3.10:riscv64 (3.10.4-3, 3.10.12-1~22.04.2), libpam-systemd:riscv64 (249.11-0ubuntu3, 249.11-0ubuntu3.9), libpython3.10-minimal:riscv64 (3.10.4-3, 3.10.12-1~22.04.2), libpython3.10-stdlib:riscv64 (3.10.4-3, 3.10.12-1~22.04.2), vim-common:riscv64 (2:8.2.3995-1ubuntu2, 2:8.2.3995-1ubuntu2.10), libip4tc2:riscv64 (1.8.7-1ubuntu5, 1.8.7-1ubuntu5.1), libsystemd0:riscv64 (249.11-0ubuntu3, 249.11-0ubuntu3.9), libnss-systemd:riscv64 (249.11-0ubuntu3, 249.11-0ubuntu3.9), systemd:riscv64 (249.11-0ubuntu3, 249.11-0ubuntu3.9), vim-tiny:riscv64 (2:8.2.3995-1ubuntu2, 2:8.2.3995-1ubuntu2.10), sudo:riscv64 (1.9.9-1ubuntu2, 1.9.9-1ubuntu2.4), systemd-sysv:riscv64 (249.11-0ubuntu3, 249.11-0ubuntu3.9), python3.10-minimal:riscv64 (3.10.4-3, 3.10.12-1~22.04.2), gcc-12-base:riscv64 (12-20220319-1ubuntu1, 12.3.0-1ubuntu1~22.04), libstdc++6:riscv64 (12-20220319-1ubuntu1, 12.3.0-1ubuntu1~22.04), libgcc-s1:riscv64 (12-20220319-1ubuntu1, 12.3.0-1ubuntu1~22.04)
+Remove: systemd-timesyncd:riscv64 (249.11-0ubuntu3)
+End-Date: 2023-08-10  02:01:28
+
+Start-Date: 2023-08-10  02:08:36
+Commandline: /usr/bin/apt install rsyslog
+Upgrade: rsyslog:riscv64 (8.2112.0-2ubuntu2, 8.2112.0-2ubuntu2.2)
+End-Date: 2023-08-10  02:08:41
+
+Start-Date: 2023-08-10  02:08:48
+Commandline: /usr/bin/apt install language-pack-en-base
+Install: language-pack-en-base:riscv64 (1:22.04+20230801), language-pack-en:riscv64 (1:22.04+20230801, automatic)
+End-Date: 2023-08-10  02:09:44
+
+Start-Date: 2023-08-10  02:11:51
+Commandline: /usr/bin/apt install language-pack-zh-hans
+Install: language-pack-zh-hans:riscv64 (1:22.04+20230801), language-pack-zh-hans-base:riscv64 (1:22.04+20230801, automatic)
+End-Date: 2023-08-10  02:11:59
+
+Start-Date: 2023-08-10  02:12:03
+Commandline: /usr/bin/apt install net-tools
+Install: net-tools:riscv64 (1.60+git20181103.0eebece-1ubuntu5)
+End-Date: 2023-08-10  02:12:03
+
+Start-Date: 2023-08-10  02:12:06
+Commandline: /usr/bin/apt install resolvconf
+Install: resolvconf:riscv64 (1.84ubuntu1)
+End-Date: 2023-08-10  02:12:11
+
+Start-Date: 2023-08-10  02:12:19
+Commandline: /usr/bin/apt install usbutils
+Install: usbutils:riscv64 (1:014-1build1), libusb-1.0-0:riscv64 (2:1.0.25-1ubuntu2, automatic)
+End-Date: 2023-08-10  02:12:20
+
+Start-Date: 2023-08-10  02:12:26
+Commandline: /usr/bin/apt install sysstat
+Install: libsensors-config:riscv64 (1:3.6.0-7ubuntu1, automatic), sysstat:riscv64 (12.5.2-2ubuntu0.2), xz-utils:riscv64 (5.2.5-2ubuntu1, automatic), libsensors5:riscv64 (1:3.6.0-7ubuntu1, automatic)
+End-Date: 2023-08-10  02:12:32
+
+Start-Date: 2023-08-10  02:12:35
+Commandline: /usr/bin/apt install bash-completion
+Install: bash-completion:riscv64 (1:2.11-5ubuntu1)
+End-Date: 2023-08-10  02:12:35
+
+Start-Date: 2023-08-10  02:42:32
+Commandline: /usr/bin/apt install pkexec
+Requested-By: bango (1000)
+Install: libpolkit-agent-1-0:riscv64 (0.105-33, automatic), polkitd:riscv64 (0.105-33, automatic), libpolkit-gobject-1-0:riscv64 (0.105-33, automatic), pkexec:riscv64 (0.105-33)
+End-Date: 2023-08-10  02:42:33
+
+Start-Date: 2023-08-10  03:05:55
+Commandline: /usr/bin/apt install network-manager
+Install: libmm-glib0:riscv64 (1.20.0-1~ubuntu22.04.2, automatic), libnghttp2-14:riscv64 (1.43.0-1build3, automatic), libcurl3-gnutls:riscv64 (7.81.0-1ubuntu1.13, automatic), libnl-3-200:riscv64 (3.5.0-0.1, automatic), libnl-genl-3-200:riscv64 (3.5.0-0.1, automatic), libssh-4:riscv64 (0.9.6-2ubuntu0.22.04.1, automatic), libqmi-proxy:riscv64 (1.32.0-1ubuntu0.22.04.1, automatic), wpasupplicant:riscv64 (2:2.10-6ubuntu2, automatic), modemmanager:riscv64 (1.20.0-1~ubuntu22.04.2, automatic), libldap-common:riscv64 (2.5.15+dfsg-0ubuntu0.22.04.1, automatic), libmbim-glib4:riscv64 (1.28.0-1~ubuntu20.04.1, automatic), usb-modeswitch-data:riscv64 (20191128-4, automatic), ppp:riscv64 (2.4.9-1+1ubuntu3, automatic), libnl-route-3-200:riscv64 (3.5.0-0.1, automatic), tcl:riscv64 (8.6.11+1build2, automatic), pptp-linux:riscv64 (1.10.0-1build3, automatic), libsasl2-modules:riscv64 (2.1.27+dfsg2-3ubuntu1.2, automatic), libsasl2-2:riscv64 (2.1.27+dfsg2-3ubuntu1.2, automatic), libjansson4:riscv64 (2.13.1-1.1build3, automatic), librtmp1:riscv64 (2.4+20151223.gitfa8646d.1-2build4, automatic), libtcl8.6:riscv64 (8.6.12+dfsg-1build1, automatic), wireless-regdb:riscv64 (2022.06.06-0ubuntu1~22.04.1, automatic), libsasl2-modules-db:riscv64 (2.1.27+dfsg2-3ubuntu1.2, automatic), libldap-2.5-0:riscv64 (2.5.15+dfsg-0ubuntu0.22.04.1, automatic), publicsuffix:riscv64 (20211207.1025-1, automatic), libgudev-1.0-0:riscv64 (1:237-2build1, automatic), dnsmasq-base:riscv64 (2.86-1.1ubuntu0.3, automatic), libpcap0.8:riscv64 (1.10.1-4build1, automatic), libndp0:riscv64 (1.8-0ubuntu3, automatic), libpcsclite1:riscv64 (1.9.5-3ubuntu1, automatic), libteamdctl0:riscv64 (1.31-1build2, automatic), usb-modeswitch:riscv64 (2.6.1-3ubuntu2, automatic), libmbim-proxy:riscv64 (1.28.0-1~ubuntu20.04.1, automatic), network-manager:riscv64 (1.36.6-0ubuntu2), tcl8.6:riscv64 (8.6.12+dfsg-1build1, automatic), network-manager-pptp:riscv64 (1.2.10-1, automatic), libqmi-glib5:riscv64 (1.32.0-1ubuntu0.22.04.1, automatic), libbluetooth3:riscv64 (5.64-0ubuntu1, automatic), libbrotli1:riscv64 (1.0.9-2build6, automatic), libnm0:riscv64 (1.36.6-0ubuntu2, automatic), policykit-1:riscv64 (0.105-33, automatic), libpsl5:riscv64 (0.21.0-1.2build2, automatic), dns-root-data:riscv64 (2021011101, automatic)
+End-Date: 2023-08-10  03:06:08
